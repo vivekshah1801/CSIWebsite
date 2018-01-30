@@ -1,32 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-    
-  </head>
-  
+<?php include('header.php');?>
+<br>
+<br>
+<br>
+<br>
 <style>
-#contact .card:hover i,#contact .card:hover h2{
-	color: black;
-}
-.fa{
-  color: #003399;
-}
-</style>
-<body>
+        #contact .card:hover i,#contact .card:hover h2{
+            color: black;
+        }
+        .fa{
+          color: #003399;
+        }
+        </style>
+<div class="container">
+  
+
+
 <section id="contact">
 
        <div class="container">
            <h2 class="text-center text-uppercase">Contact us</h2>
+           <hr><br>
            <p class="text-center w-75 m-auto">If you have any queries, please don’t hesitate to contact us.	
                 Please feel free to call us on (phone) or contact by&nbsp;(email), if you require any further information.</p>
-           <div class="row">
+           <br>
+           <hr>
+                <div class="row">
              <div class="col-sm-12 col-md-6 col-lg-3 my-5">
                <div class="card border-0">
                   <div class="card-body text-center">
@@ -63,7 +61,10 @@
                   </div>
                 </div>
              </div>
+             
            </div>
        </div>
+    </div>
+  
     </section>
-</body>
+    <?php include('footer.php');?>
