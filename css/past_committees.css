@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Open Sans Light"), local("OpenSans-Light"), url("https://fonts.gstatic.com/s/opensans/v10/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2") format("woff2"), url("https://fonts.gstatic.com/s/opensans/v10/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff") format("woff");
+}
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Open Sans"), local("OpenSans"), url("https://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2") format("woff2"), url("https://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff") format("woff");
+}
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    src: local("Open Sans Semibold"), local("OpenSans-Semibold"), url("https://fonts.gstatic.com/s/opensans/v10/MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2") format("woff2"), url("https://fonts.gstatic.com/s/opensans/v10/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff") format("woff");
+}
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Open Sans Bold"), local("OpenSans-Bold"), url("https://fonts.gstatic.com/s/opensans/v10/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2") format("woff2"), url("https://fonts.gstatic.com/s/opensans/v10/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff") format("woff");
+}
+
+#team {
+	font-family: "Open Sans";
+    line-height: 26px;
+    
+}
+#team .year {
+    text-align: left;
+}
+
+#team h1,#team h2,#team h3,#team h4,#team h5,#team h6 {
+	font-family: "Open Sans";
+	font-weight: 300;
+}
+#team h1 {
+	font-size: 46px;
+}
+#team h2 {
+    font-size: 44px;
+}
+#team h3 {
+	font-size: 32px;
+}
+#team h4 {
+	font-size: 24px;
+}
+#team h5 {
+	font-size: 22px;
+	line-height: 30px;
+}
+#team h6 {
+    font-size: 20px;
+}
+
+#team .team-links {
+    margin-top: 10px;
+}
+
+#team .team {
+    margin-top: 10px;
+}
+
+#team {
+    color: #5c6166;
+   
+}
+#team .hr.invisible_hr {
+    height: 0;
+    padding: 0;
+}
+#team .hr.big_size_hr {
+    margin: 30px 0;
+}
+#team .hr {
+    clear: both;
+    display: block;
+    font-size: 0;
+    height: 24px;
+    margin: 20px 0;
+    overflow: hidden;
+    padding: 2px 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+#team .highlight_secondary {
+    color: #1800EC;
+}
+#team .team-role {
+    color: #A4A7AA;
+}
+#team section
+{
+    background-color: 
+}
