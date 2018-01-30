@@ -129,33 +129,33 @@
 
         <div class="card-deck">
           <div class="card">
-            <img class="card-img-top card-image-size" src="img/002.jpg" alt="Card image cap">
+            <img class="card-img-top card-image-size" src="img/gallery/5/002.jpg" alt="Card image cap">
             <div class="card-block">
-              <h4 class="card-title">Java Script</h4>
-              <p class="card-text">A seminar was conducted on 22nd july’17 on the topic of JavaScript which was delivered by one of the ex-CSI member currently placed at Amazon,Mr Shaunak Thakar.</p>
+              <h4 class="card-title">QUIZOPHILE</h4>
+              <p class="card-text">The Test Of the grey cells open for all, yes you guessed it right the next event was a quiz competition with some twist and beyond the imagination rounds which made every one love the event.</p>
             </div>
             <div class="card-footer">
-              <small class="text-muted"><a href="gallery.php#card2">More Details!</a></small>
+              <small class="text-muted"><a href="gallery.php#card1">More Details...</a></small>
             </div>
           </div>
           <div class="card">
-            <img class="card-img-top card-image-size" height="180px" width="250px" src="img/001.jpg" alt="Card image cap">
+            <img class="card-img-top card-image-size" height="180px" width="250px" src="img/gallery/4/main.jpg" alt="Card image cap">
             <div class="card-block">
-              <h4 class="card-title">Card title</h4>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <h4 class="card-title">TAD TALK V2.0</h4>
+              <p class="card-text">On 30th August’17 CSI organized its tad talk v2.0 on the topic of Machine Learning which was a great fun filled event delivered by our great and learned prof. Parth Dave Sir.</p>
             </div>
             <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
+              <small class="text-muted"><a href="gallery.php#card2">More Details...</a></small>
             </div>
           </div>
           <div class="card">
-            <img class="card-img-top card-image-size" src="img/003.jpg" alt="Card image cap">
+            <img class="card-img-top card-image-size" src="img/gallery/3/main.jpg" alt="Card image cap">
             <div class="card-block">
-              <h4 class="card-title">Card title</h4>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <h4 class="card-title">Tips & Tricks</h4>
+              <p class="card-text">Csi organized Tips and tricks seminar for the freshers and the topic covered a vast array of daily life computer hacks which can make the life with computer a lot easier.</p>
             </div>
             <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
+              <small class="text-muted"><a href="gallery.php#card3">More Details...</a></small>
             </div>
           </div>
           
@@ -163,23 +163,6 @@
 
 	<!-- lower slider ends -->
     <br>
-    <style type="text/css">
-        #mission{
-  display: block;
-  position: relative;
-        }
-        #mission::after {
-            content: "";
-              background-image: url(img/csi-logo.png);
-              opacity: 0.5;
-              top: 0;
-              left: 0;
-              bottom: 0;
-              right: 0;
-              position: absolute;
-              z-index: -1;
-        }
-    </style>>
     <hr>
     <!-- Mission and Vision-->
         <div class="jumbotron" id="mission" stylbackground-image:url('img/csi-logo.png');background-position: center;background-repeat: no-repeat;back">

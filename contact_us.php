@@ -37,7 +37,7 @@
              <div class="col-sm-12 col-md-6 col-lg-3 my-5">
                <div class="card border-0">
                   <div class="card-body text-center"><a href="https://www.facebook.com/Computer-Society-of-India-DDU-Student-Branch-328507823907859/" target="_blank" >
-                    <i class="fa fa-facebook-square fa-5x mb-3" aria-hidden="true"></i></a>
+                    <i class="fa fa-facebook fa-5x mb-3" aria-hidden="true"></i></a>
                     <h4 class="text-uppercase mb-5">Facebook</h4>
                    <address>CSI DDU Student Branch Facebook page</address>
                   </div>
@@ -54,8 +54,8 @@
              </div>
              <div class="col-sm-12 col-md-6 col-lg-3 my-5">
                <div class="card border-0">
-                  <div class="card-body text-center"><a href="https://www.instagram.com/csi_ddu" target="_blank" >
-                    <i class="fa fa-globe fa-5x mb-3" aria-hidden="true"></i></a>
+                  <div class="card-body text-center"><a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=csi.ddit@gmail.com&tf=1" target="_blank" >
+                    <i class="fa fa-envelope-o fa-5x mb-3" aria-hidden="true"></i></a>
                     <h4 class="text-uppercase mb-5">email</h4>
                     <p>csi.ddit@gmail.com</p>
                   </div>

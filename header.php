@@ -10,7 +10,7 @@
 	</head>
 	<style>
 	.white-color{
-		color:white
+		color:white !important
 	}
 	.white-color:hover{
 		background-color:#0028CD;
@@ -39,22 +39,22 @@
 	  		<div class="container">
 				<div class="row">
 				<div class="col-1  offset-1" align="center">
-					<a class="nav-item nav-link <?php if(isset($page_tab) and $page_tab == "home"){echo "active";}?>" href="index.php" ><span class="white-color padding">Home</span> <span class="sr-only">(current)</span></a>
+					<a class="white-color  nav-item nav-link <?php if(isset($page_tab) and $page_tab == "home"){echo "active";}?>" href="index.php" >Home </a>
 				</div>
 				<div class="col-2 col-lg-2 col-md-2 col-xl-2 " align="center">
-					<a class="nav-item nav-link <?php if(isset($page_tab) and $page_tab == "about_us"){echo "active";}?>" href="about_us.php" ><span class="white-color padding" >About us</span></a>
+					<a class="white-color nav-item nav-link <?php if(isset($page_tab) and $page_tab == "about_us"){echo "active";}?>" href="about_us.php" >About us</a>
 				</div>
 				<div class="col-1 col-lg-1 col-md-1 col-xl-1 " align="center">
-					<a class="nav-item nav-link <?php if(isset($page_tab) and $page_tab == "gallery"){echo "active";}?>" href="gallery.php"><span class="white-color padding">Gallery</span></a>
+					<a class="white-color nav-item nav-link <?php if(isset($page_tab) and $page_tab == "gallery"){echo "active";}?>" href="gallery.php">Gallery</a>
 				</div>
 				<div class="col-2 col-lg-2 col-md-2 col-xl-2 " align="center">
-					<a class="nav-item nav-link <?php if(isset($page_tab) and $page_tab == "past_committees"){echo "active";}?>" href="past_committees.php"><span class="white-color padding">Past Committees</span></a>
+					<a class="white-color nav-item nav-link <?php if(isset($page_tab) and $page_tab == "past_committees"){echo "active";}?>" href="past_committees.php">Past Committees</a>
 				</div>
 				<div class="col-2 col-lg-2 col-md-2 col-xl-2 " align="center">
-					<a class="nav-item nav-link <?php if(isset($page_tab) and $page_tab == "present_committee"){echo "active";}?>" href="present_committee.php"><span class="white-color padding">Present Committees</span></a>
+					<a class="white-color nav-item nav-link <?php if(isset($page_tab) and $page_tab == "present_committee"){echo "active";}?>" href="present_committee.php">Present Committees</a>
 				</div>
 				<div class="col-2 col-lg-2 col-md-2 col-xl-2 " align="center">
-					<a class="nav-item nav-link <?php if(isset($page_tab) and $page_tab == "contact_us"){echo "active";}?>" href="contact_us.php"><span class="white-color padding">Contact us</span></a>
+					<a class="white-color nav-item nav-link <?php if(isset($page_tab) and $page_tab == "contact_us"){echo "active";}?>" href="contact_us.php">Contact us</a>
 				</div>
 				</div> 
 			 
