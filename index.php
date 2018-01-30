@@ -95,19 +95,23 @@
 			CSI-DDU BRANCH
 		</h3>	
 		<p>
-			Computer Society Of India, is a non-profit organisation that came into existence, to spread and share knowledge with the rest of the world. They organise various events like seminars, workshops
-And much more to move further down this path of sharing informative ideas.
-
-C.S.I DDU Student Branch is one of those successful branches of Computer Society of India, that is working day and night to bring a difference in the lives of students that come in its reach. It was initiated in the year 2008 and since then its only growing.
-
-It works in two-tier model, above is the faculty coordinator, who takes care of the proper functioning of the committee and below that comes the student body council. Student body comprises of two committees, senior and junior. Senior committee is responsible for organizing various events and competitions whereas junior committee works as interns and help the senior  with the smooth conduction of events,where they learn the tricks and procedures to run the committee, so that in the next year they become capable enough to take up the responsibility of running the committee.
-
-Till now we have conducted various seminars on topics like Javascript, deep dark web etc. and various workshops on ethical hacking, Internet of Things and much more. Apart from all this we also conduct events like quiz, coding and gaming.
-
-During Felicific, which is the techno-cultural fest of Dharmsinh Desai University, we conduct various interesting events like The Geek, Android Man, Codejam, Hardware Rush and Gaming Competitions.
-All of these events involve various rounds and the winners are declared and rewarded at the end of it.
-
-C.S.I. DDU Student Branch is an active club DDU, Nadiad that is leaving no stone unturned to ensure that the students get as much exposure possible with regard to technical aspects. We hope that this streak continues for many more years to come and we keep spreading the light of knowledge.
+			CSI-DDU Student branch is a family which comes together to achieve its goal of spreading knowledge that is beyond the college curriculum. We find speakers from the corporate world who can help students figure out what the world outside college looks like, what it demands and how can we become a valuable asset for the world. 
+        </br>
+        </br>
+            We organize various events:
+        </br>
+        1.  Quiz Competitions: To check your general knowledge as well as your presence of mind.
+        </br>
+        2.  Coding Competitions: Where we check your love for hardcore coding and logic.
+        </br>
+        3.  The Academic Development Talk: Where we give chance to the students as well as faculty members to enlighten the audience with their acquired knowledge.
+        </br>
+        4.  Seminars: These are the sessions where professional speakers interact with the students and train them in their specialized field.
+        </br>
+        5.  Workshop: A two day event, where the participants get hands-on experience on the technology being demonstrated.  
+        </br>
+        </br>
+        CSI-DDU Student Branch envisions a dream where each student is provided with an opportunity to gather information and knowledge that proves to be a stepping stone in his/her success. We work day and night to make this dream possible. Our initiatives are always focused  and in best interest of the students of our university and we hope to continue this service for as long as we can.
 
 
 		</p>
@@ -159,14 +163,42 @@ C.S.I. DDU Student Branch is an active club DDU, Nadiad that is leaving no stone
 
 	<!-- lower slider ends -->
     <br>
+    <style type="text/css">
+        #mission{
+  display: block;
+  position: relative;
+        }
+        #mission::after {
+            content: "";
+              background-image: url(img/csi-logo.png);
+              opacity: 0.5;
+              top: 0;
+              left: 0;
+              bottom: 0;
+              right: 0;
+              position: absolute;
+              z-index: -1;
+        }
+    </style>>
     <hr>
-    <!-- TVR sir profile and description-->
-        <div class="jumbotron">
-            <img src="img/tvr.jpg" style="float:right" height="210px" width="180px"/>
-            <h1 class="display-3">Tushar Ratanpara</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <!-- Mission and Vision-->
+        <div class="jumbotron" id="mission" stylbackground-image:url('img/csi-logo.png');background-position: center;background-repeat: no-repeat;back">
+            <h3 class="display-5">Mission:</h3>
+            <p class="lead"> 
+
+<i class="fa fa-chevron-right" aria-hidden="true"></i>&emsp;Provide a platform for sharing knowledge<br>
+
+<i class="fa fa-chevron-right" aria-hidden="true"></i>&emsp;Enhancing the technical skills of people<br>
+
+<i class="fa fa-chevron-right" aria-hidden="true"></i>&emsp;Be the bridge between the students and the professional world<br></p>
+
+            <h3 class="display-5">Vision :</h3>
+            <p class="lead">
+<i class="fa fa-chevron-right" aria-hidden="true"></i>&emsp;A step towards making visionary leaders of tomorrow.<br>
+
+<i class="fa fa-chevron-right" aria-hidden="true"></i>&emsp;Become a platform for sharing innovative and revolutionary ideas.
+            </p>
             
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
         </div>
 
 	</div><!--Container ends -->
