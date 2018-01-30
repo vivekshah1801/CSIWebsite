@@ -7,7 +7,7 @@
         #contact .card:hover i,#contact .card:hover h2{
             color: black;
         }
-        .fa{
+        .card-body > .fa{
           color: #003399;
         }
         </style>
@@ -30,32 +30,32 @@
                   <div class="card-body text-center">
                     <i class="fa fa-phone fa-5x mb-3" aria-hidden="true"></i>
                     <h4 class="text-uppercase mb-5">call us</h4>
-                    <p>Prakriti&nbsp;+8805152397,<br/>Abhishek&nbsp;+918866052534</p>
+                    <p>Prakriti:&nbsp;9099966198<br/>Abhishek:&nbsp;8866179625<br/>Jainil:&nbsp;7405747597</p>
                   </div>
                 </div>
              </div>
              <div class="col-sm-12 col-md-6 col-lg-3 my-5">
                <div class="card border-0">
-                  <div class="card-body text-center">
-                    <i class="fa fa-facebook-square fa-5x mb-3" aria-hidden="true"></i>
+                  <div class="card-body text-center"><a href="https://www.facebook.com/Computer-Society-of-India-DDU-Student-Branch-328507823907859/" target="_blank" >
+                    <i class="fa fa-facebook-square fa-5x mb-3" aria-hidden="true"></i></a>
                     <h4 class="text-uppercase mb-5">Facebook</h4>
-                   <address>Suite 02, Level 12, Sahera Tropical Center </address>
+                   <address>CSI DDU Student Branch Facebook page</address>
                   </div>
                 </div>
              </div>
              <div class="col-sm-12 col-md-6 col-lg-3 my-5">
                <div class="card border-0">
-                  <div class="card-body text-center">
-                    <i class="fa fa-instagram fa-5x mb-3" aria-hidden="true"></i>
+                  <div class="card-body text-center"><a href="https://www.instagram.com/csi_ddu" target="_blank" >
+                    <i class="fa fa-instagram fa-5x mb-3" aria-hidden="true"></i></a>
                     <h4 class="text-uppercase mb-5">Instagram</h4>
-                    <address>Suite 02, Level 12, Sahera Tropical Center </address>
+                    <address>CSI DDU Student Branch Instagram page</address>
                   </div>
                 </div>
              </div>
              <div class="col-sm-12 col-md-6 col-lg-3 my-5">
                <div class="card border-0">
-                  <div class="card-body text-center">
-                    <i class="fa fa-globe fa-5x mb-3" aria-hidden="true"></i>
+                  <div class="card-body text-center"><a href="https://www.instagram.com/csi_ddu" target="_blank" >
+                    <i class="fa fa-globe fa-5x mb-3" aria-hidden="true"></i></a>
                     <h4 class="text-uppercase mb-5">email</h4>
                     <p>csi.ddit@gmail.com</p>
                   </div>
