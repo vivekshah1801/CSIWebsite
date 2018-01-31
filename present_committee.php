@@ -53,7 +53,7 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/15_prakriti.jpg" class="rounded-circle img-fluid">
+              <img src="img/16_prakriti.jpg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
@@ -72,7 +72,7 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/15_abhishek.jpeg" class="rounded-circle img-fluid">
+              <img src="img/16_abhishek.jpeg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
@@ -91,7 +91,7 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/15_jainil.jpg" class="rounded-circle img-fluid">
+              <img src="img/16_jainil.png" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
@@ -110,7 +110,7 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/15_harshal.jpg" class="rounded-circle img-fluid">
+              <img src="img/16_harshal.jpg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
@@ -129,7 +129,7 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/15_zahra.jpg"  class="rounded-circle img-fluid">
+              <img src="img/16_zahra.jpg"  class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
@@ -150,17 +150,17 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/15_vaibhav.jpeg" class="rounded-circle img-fluid">
+              <img src="img/16_vaibhav.jpeg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
-                <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/vaibhav-dodiya-072724123/" target="_blank"><i class="fa fa-linkedin"></i></a>
               </div><!-- /.team-links-list -->
             </div><!-- /.team-links -->
           </div><!-- /.team-image -->
           <div class="team-content">
             <div class="team-name"><h5>Vaibhav Dodiya</h5></div>
-            <div class="team-role">Techical Head</div>
+            <div class="team-role">Technical Head</div>
             <div class="team-description"></div>
           </div><!-- /.team-content -->
         </div><!-- /.team -->
@@ -169,7 +169,7 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/15_bhargav.jpeg" class="rounded-circle img-fluid">
+              <img src="img/16_bhargav.jpeg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
@@ -188,7 +188,7 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/15_raj.jpg" class="rounded-circle img-fluid">
+              <img src="img/16_raj.jpg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
@@ -207,7 +207,7 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/15_smit.jpg" class="rounded-circle img-fluid">
+              <img src="img/16_smit.jpg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
@@ -226,7 +226,7 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/15_pururaj.jpeg" class="rounded-circle img-fluid">
+              <img src="img/16_pururaj.jpeg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
@@ -257,7 +257,7 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/16_amrita.jpg" class="rounded-circle img-fluid">
+              <img src="img/17_amrita.jpg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
@@ -276,7 +276,7 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/16_anmol.jpg" class="rounded-circle img-fluid">
+              <img src="img/17_anmol.jpg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
@@ -295,7 +295,7 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/16_arshit.jpg" class="rounded-circle img-fluid">
+              <img src="img/17_arshit.jpg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
@@ -314,7 +314,7 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/16_maitri" class="rounded-circle img-fluid">
+              <img src="img/17_maitri" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
@@ -333,7 +333,7 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/16_mohit.jpg" class="rounded-circle img-fluid">
+              <img src="img/17_mohit.jpg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
@@ -354,7 +354,7 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/16_rachit.jpg" class="rounded-circle img-fluid">
+              <img src="img/17_rachit.jpg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
@@ -373,7 +373,7 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/16_rahi.JPG" class="rounded-circle img-fluid">
+              <img src="img/17_rahi.JPG" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
@@ -392,7 +392,7 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/16_siddharthsinh.jpeg" class="rounded-circle img-fluid">
+              <img src="img/17_siddharthsinh.jpeg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
@@ -411,7 +411,7 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/16_tilak.jpg" class="rounded-circle img-fluid">
+              <img src="img/17_tilak.jpg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
@@ -430,7 +430,7 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/16_vishal.jpg" class="rounded-circle img-fluid">
+              <img src="img/17_vishal.jpg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">

@@ -23,16 +23,16 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/15_prakriti.jpg" class="rounded-circle img-fluid">
+              <img src="img/past_committee/2015-17/15_ravinder.jpg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
-                <a href="https://www.linkedin.com/in/prakriti-tiwari-122b41135" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/ravinder-singh-32424a120" target="_blank"><i class="fa fa-linkedin"></i></a>
               </div><!-- /.team-links-list -->
             </div><!-- /.team-links -->
           </div><!-- /.team-image -->
           <div class="team-content">
-            <div class="team-name"><h5>Prakriti Tiwari</h5></div>
+            <div class="team-name"><h5>Ravinder Singh</h5></div>
             <div class="team-role">President</div>
             <div class="team-description"></div>
           </div><!-- /.team-content -->
@@ -42,7 +42,7 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/15_abhishek.jpeg" class="rounded-circle img-fluid">
+              <img src="img/past_committee/2015-17/15_maitri.jpeg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
@@ -61,16 +61,16 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/15_jainil.jpg" class="rounded-circle img-fluid">
+              <img src="img/past_committee/2015-17/15_ronit.jpg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
-                <a href="https://www.linkedin.com/in/jainil-desai-59121135/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="http://linkedin.com/in/ronitrpatel" target="_blank"><i class="fa fa-linkedin"></i></a>
               </div><!-- /.team-links-list -->
             </div><!-- /.team-links -->
           </div><!-- /.team-image -->
           <div class="team-content">
-            <div class="team-name"><h5>Jainil Desai</h5></div>
+            <div class="team-name"><h5>Ronit Patel</h5></div>
             <div class="team-role">Secretary</div>
             <div class="team-description"></div>
           </div><!-- /.team-content -->
@@ -80,7 +80,7 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/15_harshal.jpg" class="rounded-circle img-fluid">
+              <img src="img/past_committee/2015-17/15_ravinder.jpg_harshal.jpg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
@@ -99,16 +99,16 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/15_zahra.jpg"  class="rounded-circle img-fluid">
+              <img src="img/past_committee/2015-17/15_riya.jpg"  class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
-                <a href="https://www.linkedin.com/in/zahra-sidhpuri-0872a9131" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/riya-delhiwala-763b36120" target="_blank"><i class="fa fa-linkedin"></i></a>
               </div><!-- /.team-links-list -->
             </div><!-- /.team-links -->
           </div><!-- /.team-image -->
           <div class="team-content">
-            <div class="team-name"><h5>Zahra Siddipuri</h5></div>
+            <div class="team-name"><h5>Riya Delhiwala</h5></div>
             <div class="team-role">Treasurer</div>
             <div class="team-description"></div>
           </div><!-- /.team-content -->
@@ -120,7 +120,7 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/15_vaibhav.jpeg" class="rounded-circle img-fluid">
+              <img src="img/past_committee/2015-17/15_ravinder.jpg_vaibhav.jpeg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
@@ -139,16 +139,16 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/15_bhargav.jpeg" class="rounded-circle img-fluid">
+              <img src="img/past_committee/2015-17/15_sanket.jpeg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
-                <a href="https://www.linkedin.com/in/bhargav-lad-623a2a136/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/sanket-bhimani-2807b7110/" target="_blank"><i class="fa fa-linkedin"></i></a>
               </div><!-- /.team-links-list -->
             </div><!-- /.team-links -->
           </div><!-- /.team-image -->
           <div class="team-content">
-            <div class="team-name"><h5>Bhargav Lad</h5></div>
+            <div class="team-name"><h5>Sanket Bhimani</h5></div>
             <div class="team-role">Asscoiate Techical Head</div>
             <div class="team-description"></div>
           </div><!-- /.team-content -->
@@ -158,7 +158,231 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/15_raj.jpg" class="rounded-circle img-fluid">
+              <img src="img/past_committee/2015-17/15_varun.jpg" class="rounded-circle img-fluid">
+            </a>
+            <div class="team-links">
+              <div class="team-links-list">
+                <a href="https://www.linkedin.com/in/varun196/" target="_blank"><i class="fa fa-linkedin"></i></a>
+              </div><!-- /.team-links-list -->
+            </div><!-- /.team-links -->
+          </div><!-- /.team-image -->
+          <div class="team-content">
+            <div class="team-name"><h5>Varun Shah</h5></div>
+            <div class="team-role">Technical Assistant</div>
+            <div class="team-description"></div>
+          </div><!-- /.team-content -->
+        </div><!-- /.team -->
+      </div>
+      <div class="col-lg-2 col-sm-4 col-xs-6">
+        <div class="team">
+          <div class="team-image">
+            <a href="#">
+              <img src="img/past_committee/2015-17/15_binit.jpg" class="rounded-circle img-fluid">
+            </a>
+            <div class="team-links">
+              <div class="team-links-list">
+                <a href="https://www.linkedin.com/in/binitgajera" target="_blank"><i class="fa fa-linkedin"></i></a>
+              </div><!-- /.team-links-list -->
+            </div><!-- /.team-links -->
+          </div><!-- /.team-image -->
+          <div class="team-content">
+            <div class="team-name"><h5>Binit Gajera</h5></div>
+            <div class="team-role">Desiging Head</div>
+            <div class="team-description"></div>
+          </div><!-- /.team-content -->
+        </div><!-- /.team -->
+      </div>
+      <div class="col-lg-2 col-sm-4 col-xs-6">
+        <div class="team">
+          <div class="team-image">
+            <a href="#">
+              <img src="img/past_committee/2015-17/15_aditi.jpg" class="rounded-circle img-fluid">
+            </a>
+            <div class="team-links">
+              <div class="team-links-list">
+                <a href="https://www.linkedin.com/in/aditi-dandekar-7aa0b014b" target="_blank"><i class="fa fa-linkedin"></i></a>
+              </div><!-- /.team-links-list -->
+            </div><!-- /.team-links -->
+          </div><!-- /.team-image -->
+          <div class="team-content">
+            <div class="team-name"><h5>Aditi Dandekar</h5></div>
+            <div class="team-role">Assistant Designer</div>
+            <div class="team-description"></div>
+          </div><!-- /.team-content -->
+        </div><!-- /.team -->
+      </div>
+      <div class="col-lg-2 col-sm-4 col-xs-6">
+        <div class="team">
+          <div class="team-image">
+            <a href="#">
+              <img src="img/past_committee/2015-17/15_ishaan.jpg" class="rounded-circle img-fluid">
+            </a>
+            <div class="team-links">
+              <div class="team-links-list">
+                <a href="https://www.linkedin.com/in/shringiishaan" target="_blank"><i class="fa fa-linkedin"></i></a>
+              </div><!-- /.team-links-list -->
+            </div><!-- /.team-links -->
+          </div><!-- /.team-image -->
+          <div class="team-content">
+            <div class="team-name"><h5>Ishaan Shringi</h5></div>
+            <div class="team-role">Assistant Designer</div>
+            <div class="team-description"></div>
+          </div><!-- /.team-content -->
+        </div><!-- /.team -->
+      </div>
+    </div>
+    
+
+    <div class="hr big_size_hr invisible_hr">
+        <i class="fa fa-"></i>
+    </div>
+
+
+    <h2 class="year"><span class="highlight_secondary">2014-16</span> Committee</h2>
+ 
+<hr>
+<br>
+    <div class="row justify-content-md-center">
+      <div class="col-lg-2 col-sm-4 col-xs-6 col-lg-offset-1 "><!-- add col-lg-offset-1 for 5 members -->
+        <div class="team">
+          <div class="team-image">
+            <a href="#">
+              <img src="img/past_committee/2014-16/14_bansari.jpg" class="rounded-circle img-fluid">
+            </a>
+            <div class="team-links">
+              <div class="team-links-list">
+                <a href="https://www.linkedin.com/in/bansari-soni-418500100" target="_blank"><i class="fa fa-linkedin"></i></a>
+              </div><!-- /.team-links-list -->
+            </div><!-- /.team-links -->
+          </div><!-- /.team-image -->
+          <div class="team-content">
+            <div class="team-name"><h5>Bansari Soni</h5></div>
+            <div class="team-role">President</div>
+            <div class="team-description"></div>
+          </div><!-- /.team-content -->
+        </div><!-- /.team -->
+      </div>
+      <div class="col-lg-2 col-sm-4 col-xs-6">
+        <div class="team">
+          <div class="team-image">
+            <a href="#">
+              <img src="img/past_committee/2014-16/14_abhishek.jpeg" class="rounded-circle img-fluid">
+            </a>
+            <div class="team-links">
+              <div class="team-links-list">
+                <a href="https://in.linkedin.com/in/abhishek-jaguwala-7aa27bba" target="_blank"><i class="fa fa-linkedin"></i></a>
+              </div><!-- /.team-links-list -->
+            </div><!-- /.team-links -->
+          </div><!-- /.team-image -->
+          <div class="team-content">
+            <div class="team-name"><h5>Abhishek&nbspjaguwala</h5></div>
+            <div class="team-role">Vice President</div>
+            <div class="team-description"></div>
+          </div><!-- /.team-content -->
+        </div><!-- /.team -->
+      </div>
+      <div class="col-lg-2 col-sm-4 col-xs-6">
+        <div class="team">
+          <div class="team-image">
+            <a href="#">
+              <img src="img/past_committee/2014-16/14_jainil.png" class="rounded-circle img-fluid">
+            </a>
+            <div class="team-links">
+              <div class="team-links-list">
+                <a href="https://www.linkedin.com/in/jainil-desai-59121135/" target="_blank"><i class="fa fa-linkedin"></i></a>
+              </div><!-- /.team-links-list -->
+            </div><!-- /.team-links -->
+          </div><!-- /.team-image -->
+          <div class="team-content">
+            <div class="team-name"><h5>Jainil Desai</h5></div>
+            <div class="team-role">Secretary</div>
+            <div class="team-description"></div>
+          </div><!-- /.team-content -->
+        </div><!-- /.team -->
+      </div>
+      <div class="col-lg-2 col-sm-4 col-xs-6">
+        <div class="team">
+          <div class="team-image">
+            <a href="#">
+              <img src="img/past_committee/2014-16/14_harshal.jpg" class="rounded-circle img-fluid">
+            </a>
+            <div class="team-links">
+              <div class="team-links-list">
+                <a href="https://www.linkedin.com/in/harshal-sheth-528150136/" target="_blank"><i class="fa fa-linkedin"></i></a>
+              </div><!-- /.team-links-list -->
+            </div><!-- /.team-links -->
+          </div><!-- /.team-image -->
+          <div class="team-content">
+            <div class="team-name"><h5>Harshal seth</h5></div>
+            <div class="team-role">Joint Secretary</div>
+            <div class="team-description"></div>
+          </div><!-- /.team-content -->
+        </div><!-- /.team -->
+      </div>
+      <div class="col-lg-2 col-sm-4 col-xs-6">
+        <div class="team">
+          <div class="team-image">
+            <a href="#">
+              <img src="img/past_committee/2014-16/14_khushboo.jpg"  class="rounded-circle img-fluid">
+            </a>
+            <div class="team-links">
+              <div class="team-links-list">
+                <a href="https://www.linkedin.com/in/khushboo-mehta-45a7b4134" target="_blank"><i class="fa fa-linkedin"></i></a>
+              </div><!-- /.team-links-list -->
+            </div><!-- /.team-links -->
+          </div><!-- /.team-image -->
+          <div class="team-content">
+            <div class="team-name"><h5>Khushboo Mehta</h5></div>
+            <div class="team-role">Treasurer</div>
+            <div class="team-description"></div>
+          </div><!-- /.team-content -->
+        </div><!-- /.team -->
+      </div>
+    </div>
+    <div class="row justify-content-md-center">
+      <div class="col-lg-2 col-sm-4 col-xs-6 col-lg-offset-1 "><!-- add col-lg-offset-1 for 5 members -->
+        <div class="team">
+          <div class="team-image">
+            <a href="#">
+              <img src="img/past_committee/2014-16/14_vaibhav.jpeg" class="rounded-circle img-fluid">
+            </a>
+            <div class="team-links">
+              <div class="team-links-list">
+                <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+              </div><!-- /.team-links-list -->
+            </div><!-- /.team-links -->
+          </div><!-- /.team-image -->
+          <div class="team-content">
+            <div class="team-name"><h5>Vaibhav Dodiya</h5></div>
+            <div class="team-role">Technical Head</div>
+            <div class="team-description"></div>
+          </div><!-- /.team-content -->
+        </div><!-- /.team -->
+      </div>
+      <div class="col-lg-2 col-sm-4 col-xs-6">
+        <div class="team">
+          <div class="team-image">
+            <a href="#">
+              <img src="img/past_committee/2014-16/14_jay.jpeg" class="rounded-circle img-fluid">
+            </a>
+            <div class="team-links">
+              <div class="team-links-list">
+                <a href="https://www.linkedin.com/in/jay-tanna-14751aaa/" target="_blank"><i class="fa fa-linkedin"></i></a>
+              </div><!-- /.team-links-list -->
+            </div><!-- /.team-links -->
+          </div><!-- /.team-image -->
+          <div class="team-content">
+            <div class="team-name"><h5>Jay Tanna</h5></div>
+            <div class="team-role">Asscoiate Techical Head</div>
+            <div class="team-description"></div>
+          </div><!-- /.team-content -->
+        </div><!-- /.team -->
+      </div>
+      <div class="col-lg-2 col-sm-4 col-xs-6">
+        <div class="team">
+          <div class="team-image">
+            <a href="#">
+              <img src="img/past_committee/2014-16/14_raj.jpg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
@@ -177,16 +401,16 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="http://dummyimage.com/450x450/d9dadc/1c1f24.png&text=+" class="rounded-circle img-fluid">
+              <img src="img/past_committee/2014-16/14_akshay.jpeg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
-                <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/akshay-prajapati-289791131" target="_blank"><i class="fa fa-linkedin"></i></a>
               </div><!-- /.team-links-list -->
             </div><!-- /.team-links -->
           </div><!-- /.team-image -->
           <div class="team-content">
-            <div class="team-name"><h5>Smit Limbani</h5></div>
+            <div class="team-name"><h5>Akshay Prajapati</h5></div>
             <div class="team-role">Desiging Head</div>
             <div class="team-description"></div>
           </div><!-- /.team-content -->
@@ -196,7 +420,7 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/15_pururaj.jpeg" class="rounded-circle img-fluid">
+              <img src="img/past_committee/2014-16/14_pururaj.jpeg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
@@ -205,406 +429,8 @@
             </div><!-- /.team-links -->
           </div><!-- /.team-image -->
           <div class="team-content">
-            <div class="team-name"><h5>Pururaj Singh</h5></div>
+            <div class="team-name"><h5>Pururajsinh Solanki</h5></div>
             <div class="team-role">Assistant Designer</div>
-            <div class="team-description"></div>
-          </div><!-- /.team-content -->
-        </div><!-- /.team -->
-      </div>
-    </div>
-    <div class="row justify-content-md-center">
-      <div class="col-lg-2 col-sm-4 col-xs-6 col-lg-offset-1 "><!-- add col-lg-offset-1 for 5 members -->
-        <div class="team">
-          <div class="team-image">
-            <a href="#">
-              <img src="http://dummyimage.com/450x450/d9dadc/1c1f24.png&text=+" class="rounded-circle img-fluid">
-            </a>
-            <div class="team-links">
-              <div class="team-links-list">
-                <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-              </div><!-- /.team-links-list -->
-            </div><!-- /.team-links -->
-          </div><!-- /.team-image -->
-          <div class="team-content">
-            <div class="team-name"><h5>Herman Mach</h5></div>
-            <div class="team-role">Software Developer</div>
-            <div class="team-description"></div>
-          </div><!-- /.team-content -->
-        </div><!-- /.team -->
-      </div>
-      <div class="col-lg-2 col-sm-4 col-xs-6">
-        <div class="team">
-          <div class="team-image">
-            <a href="#">
-              <img src="http://dummyimage.com/450x450/d9dadc/1c1f24.png&text=+" class="rounded-circle img-fluid">
-            </a>
-            <div class="team-links">
-              <div class="team-links-list">
-                <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-              </div><!-- /.team-links-list -->
-            </div><!-- /.team-links -->
-          </div><!-- /.team-image -->
-          <div class="team-content">
-            <div class="team-name"><h5>Joyce Wagner</h5></div>
-            <div class="team-role">Designer</div>
-            <div class="team-description"></div>
-          </div><!-- /.team-content -->
-        </div><!-- /.team -->
-      </div>
-      <div class="col-lg-2 col-sm-4 col-xs-6">
-        <div class="team">
-          <div class="team-image">
-            <a href="#">
-              <img src="http://dummyimage.com/450x450/d9dadc/1c1f24.png&text=+" class="rounded-circle img-fluid">
-            </a>
-            <div class="team-links">
-              <div class="team-links-list">
-                <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-              </div><!-- /.team-links-list -->
-            </div><!-- /.team-links -->
-          </div><!-- /.team-image -->
-          <div class="team-content">
-            <div class="team-name"><h5>Donald Speth</h5></div>
-            <div class="team-role">Account manager</div>
-            <div class="team-description"></div>
-          </div><!-- /.team-content -->
-        </div><!-- /.team -->
-      </div>
-      <div class="col-lg-2 col-sm-4 col-xs-6">
-        <div class="team">
-          <div class="team-image">
-            <a href="#">
-              <img src="http://dummyimage.com/450x450/d9dadc/1c1f24.png&text=+" class="rounded-circle img-fluid">
-            </a>
-            <div class="team-links">
-              <div class="team-links-list">
-                <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-              </div><!-- /.team-links-list -->
-            </div><!-- /.team-links -->
-          </div><!-- /.team-image -->
-          <div class="team-content">
-            <div class="team-name"><h5>Frank McGuire</h5></div>
-            <div class="team-role">Programmer</div>
-            <div class="team-description"></div>
-          </div><!-- /.team-content -->
-        </div><!-- /.team -->
-      </div>
-      <div class="col-lg-2 col-sm-4 col-xs-6">
-        <div class="team">
-          <div class="team-image">
-            <a href="#">
-              <img src="http://dummyimage.com/450x450/d9dadc/1c1f24.png&text=+" class="rounded-circle img-fluid">
-            </a>
-            <div class="team-links">
-              <div class="team-links-list">
-                <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-              </div><!-- /.team-links-list -->
-            </div><!-- /.team-links -->
-          </div><!-- /.team-image -->
-          <div class="team-content">
-            <div class="team-name"><h5>Natasha Miley</h5></div>
-            <div class="team-role">Journalist</div>
-            <div class="team-description"></div>
-          </div><!-- /.team-content -->
-        </div><!-- /.team -->
-      </div>
-    </div>
-    <div class="row justify-content-md-center">
-      <div class="col-lg-2 col-sm-4 col-xs-6 col-lg-offset-1 "><!-- add col-lg-offset-1 for 5 members -->
-        <div class="team">
-          <div class="team-image">
-            <a href="#">
-              <img src="http://dummyimage.com/450x450/d9dadc/1c1f24.png&text=+" class="rounded-circle img-fluid">
-            </a>
-            <div class="team-links">
-              <div class="team-links-list">
-                <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-              </div><!-- /.team-links-list -->
-            </div><!-- /.team-links -->
-          </div><!-- /.team-image -->
-          <div class="team-content">
-            <div class="team-name"><h5>Herman Mach</h5></div>
-            <div class="team-role">Software Developer</div>
-            <div class="team-description"></div>
-          </div><!-- /.team-content -->
-        </div><!-- /.team -->
-      </div>
-      <div class="col-lg-2 col-sm-4 col-xs-6">
-        <div class="team">
-          <div class="team-image">
-            <a href="#">
-              <img src="http://dummyimage.com/450x450/d9dadc/1c1f24.png&text=+" class="rounded-circle img-fluid">
-            </a>
-            <div class="team-links">
-              <div class="team-links-list">
-                <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-              </div><!-- /.team-links-list -->
-            </div><!-- /.team-links -->
-          </div><!-- /.team-image -->
-          <div class="team-content">
-            <div class="team-name"><h5>Joyce Wagner</h5></div>
-            <div class="team-role">Designer</div>
-            <div class="team-description"></div>
-          </div><!-- /.team-content -->
-        </div><!-- /.team -->
-      </div>
-      <div class="col-lg-2 col-sm-4 col-xs-6">
-        <div class="team">
-          <div class="team-image">
-            <a href="#">
-              <img src="http://dummyimage.com/450x450/d9dadc/1c1f24.png&text=+" class="rounded-circle img-fluid">
-            </a>
-            <div class="team-links">
-              <div class="team-links-list">
-                <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-              </div><!-- /.team-links-list -->
-            </div><!-- /.team-links -->
-          </div><!-- /.team-image -->
-          <div class="team-content">
-            <div class="team-name"><h5>Donald Speth</h5></div>
-            <div class="team-role">Account manager</div>
-            <div class="team-description"></div>
-          </div><!-- /.team-content -->
-        </div><!-- /.team -->
-      </div>
-      <div class="col-lg-2 col-sm-4 col-xs-6">
-        <div class="team">
-          <div class="team-image">
-            <a href="#">
-              <img src="http://dummyimage.com/450x450/d9dadc/1c1f24.png&text=+" class="rounded-circle img-fluid">
-            </a>
-            <div class="team-links">
-              <div class="team-links-list">
-                <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-              </div><!-- /.team-links-list -->
-            </div><!-- /.team-links -->
-          </div><!-- /.team-image -->
-          <div class="team-content">
-            <div class="team-name"><h5>Frank McGuire</h5></div>
-            <div class="team-role">Programmer</div>
-            <div class="team-description"></div>
-          </div><!-- /.team-content -->
-        </div><!-- /.team -->
-      </div>
-      <div class="col-lg-2 col-sm-4 col-xs-6">
-        <div class="team">
-          <div class="team-image">
-            <a href="#">
-              <img src="http://dummyimage.com/450x450/d9dadc/1c1f24.png&text=+" class="rounded-circle img-fluid">
-            </a>
-            <div class="team-links">
-              <div class="team-links-list">
-                <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-              </div><!-- /.team-links-list -->
-            </div><!-- /.team-links -->
-          </div><!-- /.team-image -->
-          <div class="team-content">
-            <div class="team-name"><h5>Natasha Miley</h5></div>
-            <div class="team-role">Journalist</div>
-            <div class="team-description"></div>
-          </div><!-- /.team-content -->
-        </div><!-- /.team -->
-      </div>
-    </div>
-
-    <div class="hr big_size_hr invisible_hr">
-        <i class="fa fa-"></i>
-    </div>
-
-
-    <h2 class="year"><span class="highlight_secondary">2014-16</span> Committee</h2>
- 
-<hr>
-<br>
-    <div class="row justify-content-md-center">
-      <div class="col-lg-2 col-sm-4 col-xs-6 col-lg-offset-1 "><!-- add col-lg-offset-1 for 5 members -->
-        <div class="team">
-          <div class="team-image">
-            <a href="#">
-              <img src="http://dummyimage.com/450x450/d9dadc/1c1f24.png&text=+" class="rounded-circle img-fluid">
-            </a>
-            <div class="team-links">
-              <div class="team-links-list">
-                <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-              </div><!-- /.team-links-list -->
-            </div><!-- /.team-links -->
-          </div><!-- /.team-image -->
-          <div class="team-content">
-            <div class="team-name"><h5>Herman Mach</h5></div>
-            <div class="team-role">Software Developer</div>
-            <div class="team-description"></div>
-          </div><!-- /.team-content -->
-        </div><!-- /.team -->
-      </div>
-      <div class="col-lg-2 col-sm-4 col-xs-6">
-        <div class="team">
-          <div class="team-image">
-            <a href="#">
-              <img src="http://dummyimage.com/450x450/d9dadc/1c1f24.png&text=+" class="rounded-circle img-fluid">
-            </a>
-            <div class="team-links">
-              <div class="team-links-list">
-                <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-              </div><!-- /.team-links-list -->
-            </div><!-- /.team-links -->
-          </div><!-- /.team-image -->
-          <div class="team-content">
-            <div class="team-name"><h5>Joyce Wagner</h5></div>
-            <div class="team-role">Designer</div>
-            <div class="team-description"></div>
-          </div><!-- /.team-content -->
-        </div><!-- /.team -->
-      </div>
-      <div class="col-lg-2 col-sm-4 col-xs-6">
-        <div class="team">
-          <div class="team-image">
-            <a href="#">
-              <img src="http://dummyimage.com/450x450/d9dadc/1c1f24.png&text=+" class="rounded-circle img-fluid">
-            </a>
-            <div class="team-links">
-              <div class="team-links-list">
-                <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-              </div><!-- /.team-links-list -->
-            </div><!-- /.team-links -->
-          </div><!-- /.team-image -->
-          <div class="team-content">
-            <div class="team-name"><h5>Donald Speth</h5></div>
-            <div class="team-role">Account manager</div>
-            <div class="team-description"></div>
-          </div><!-- /.team-content -->
-        </div><!-- /.team -->
-      </div>
-      <div class="col-lg-2 col-sm-4 col-xs-6">
-        <div class="team">
-          <div class="team-image">
-            <a href="#">
-              <img src="http://dummyimage.com/450x450/d9dadc/1c1f24.png&text=+" class="rounded-circle img-fluid">
-            </a>
-            <div class="team-links">
-              <div class="team-links-list">
-                <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-              </div><!-- /.team-links-list -->
-            </div><!-- /.team-links -->
-          </div><!-- /.team-image -->
-          <div class="team-content">
-            <div class="team-name"><h5>Frank McGuire</h5></div>
-            <div class="team-role">Programmer</div>
-            <div class="team-description"></div>
-          </div><!-- /.team-content -->
-        </div><!-- /.team -->
-      </div>
-      <div class="col-lg-2 col-sm-4 col-xs-6">
-        <div class="team">
-          <div class="team-image">
-            <a href="#">
-              <img src="http://dummyimage.com/450x450/d9dadc/1c1f24.png&text=+" class="rounded-circle img-fluid">
-            </a>
-            <div class="team-links">
-              <div class="team-links-list">
-                <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-              </div><!-- /.team-links-list -->
-            </div><!-- /.team-links -->
-          </div><!-- /.team-image -->
-          <div class="team-content">
-            <div class="team-name"><h5>Natasha Miley</h5></div>
-            <div class="team-role">Journalist</div>
-            <div class="team-description"></div>
-          </div><!-- /.team-content -->
-        </div><!-- /.team -->
-      </div>
-    </div>
-    <div class="row justify-content-md-center">
-      <div class="col-lg-2 col-sm-4 col-xs-6 col-lg-offset-1 "><!-- add col-lg-offset-1 for 5 members -->
-        <div class="team">
-          <div class="team-image">
-            <a href="#">
-              <img src="http://dummyimage.com/450x450/d9dadc/1c1f24.png&text=+" class="rounded-circle img-fluid">
-            </a>
-            <div class="team-links">
-              <div class="team-links-list">
-                <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-              </div><!-- /.team-links-list -->
-            </div><!-- /.team-links -->
-          </div><!-- /.team-image -->
-          <div class="team-content">
-            <div class="team-name"><h5>Herman Mach</h5></div>
-            <div class="team-role">Software Developer</div>
-            <div class="team-description"></div>
-          </div><!-- /.team-content -->
-        </div><!-- /.team -->
-      </div>
-      <div class="col-lg-2 col-sm-4 col-xs-6">
-        <div class="team">
-          <div class="team-image">
-            <a href="#">
-              <img src="http://dummyimage.com/450x450/d9dadc/1c1f24.png&text=+" class="rounded-circle img-fluid">
-            </a>
-            <div class="team-links">
-              <div class="team-links-list">
-                <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-              </div><!-- /.team-links-list -->
-            </div><!-- /.team-links -->
-          </div><!-- /.team-image -->
-          <div class="team-content">
-            <div class="team-name"><h5>Joyce Wagner</h5></div>
-            <div class="team-role">Designer</div>
-            <div class="team-description"></div>
-          </div><!-- /.team-content -->
-        </div><!-- /.team -->
-      </div>
-      <div class="col-lg-2 col-sm-4 col-xs-6">
-        <div class="team">
-          <div class="team-image">
-            <a href="#">
-              <img src="http://dummyimage.com/450x450/d9dadc/1c1f24.png&text=+" class="rounded-circle img-fluid">
-            </a>
-            <div class="team-links">
-              <div class="team-links-list">
-                <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-              </div><!-- /.team-links-list -->
-            </div><!-- /.team-links -->
-          </div><!-- /.team-image -->
-          <div class="team-content">
-            <div class="team-name"><h5>Donald Speth</h5></div>
-            <div class="team-role">Account manager</div>
-            <div class="team-description"></div>
-          </div><!-- /.team-content -->
-        </div><!-- /.team -->
-      </div>
-      <div class="col-lg-2 col-sm-4 col-xs-6">
-        <div class="team">
-          <div class="team-image">
-            <a href="#">
-              <img src="http://dummyimage.com/450x450/d9dadc/1c1f24.png&text=+" class="rounded-circle img-fluid">
-            </a>
-            <div class="team-links">
-              <div class="team-links-list">
-                <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-              </div><!-- /.team-links-list -->
-            </div><!-- /.team-links -->
-          </div><!-- /.team-image -->
-          <div class="team-content">
-            <div class="team-name"><h5>Frank McGuire</h5></div>
-            <div class="team-role">Programmer</div>
-            <div class="team-description"></div>
-          </div><!-- /.team-content -->
-        </div><!-- /.team -->
-      </div>
-      <div class="col-lg-2 col-sm-4 col-xs-6">
-        <div class="team">
-          <div class="team-image">
-            <a href="#">
-              <img src="http://dummyimage.com/450x450/d9dadc/1c1f24.png&text=+" class="rounded-circle img-fluid">
-            </a>
-            <div class="team-links">
-              <div class="team-links-list">
-                <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-              </div><!-- /.team-links-list -->
-            </div><!-- /.team-links -->
-          </div><!-- /.team-image -->
-          <div class="team-content">
-            <div class="team-name"><h5>Natasha Miley</h5></div>
-            <div class="team-role">Journalist</div>
             <div class="team-description"></div>
           </div><!-- /.team-content -->
         </div><!-- /.team -->

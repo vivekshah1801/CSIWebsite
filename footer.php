@@ -33,8 +33,8 @@
                 </ul>
                 <br>
                 <h4>Desgined By</h4>
-                <small class="text-muted footer-brand"><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i>&nbsp Vaibhav Dodiya</a></small><br>
-                <small class="text-muted footer-brand"><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i>&nbsp Bhargav Laad</a></small>
+                <small class="text-muted footer-brand"><a href="https://www.linkedin.com/in/vaibhav-dodiya-072724123/"><i class="fa fa-linkedin-square" aria-hidden="true"></i>&nbsp Vaibhav Dodiya</a></small><br>
+                <small class="text-muted footer-brand"><a href="https://www.linkedin.com/in/bhargav-lad-623a2a136/"><i class="fa fa-linkedin-square" aria-hidden="true"></i>&nbsp Bhargav Laad</a></small>
             </div>
         </div>
         </div>
