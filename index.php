@@ -38,7 +38,7 @@
         <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
             <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
         </div>
-        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:80px;width:820px;height:380px;overflow:hidden;">
             <div>
                 <img data-u="image" src="img/001.jpg" />
             </div>
@@ -60,12 +60,6 @@
             <div>
                 <img data-u="image" src="img/007.jpg" />
             </div>
-            <div>
-                <img data-u="image" src="img/008.jpg" />
-            </div>
-            <div>
-                <img data-u="image" src="img/009.jpg" />
-            </div>
             <a data-u="any" href="https://www.jssor.com" style="display:none">js slider</a>
         </div>
         <!-- Bullet Navigator -->
@@ -78,11 +72,11 @@
         </div>
         <!-- Arrow Navigator -->
         <div data-u="arrowleft" class="jssora051" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
-            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:60;width:100%;height:100%;">
                 <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
             </svg>
         </div>
-        <div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+        <div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:0px;right:85px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
             <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
                 <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
             </svg>
@@ -164,10 +158,34 @@
 	<!-- lower slider ends -->
     <br>
     <hr>
+    <style type="text/css">
+        #my_container {  position: relative; }
+
+#my_container:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-image: url('img/csi-logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.2;
+    background-color: gray;
+}
+
+#mission {
+    position: relative; 
+    z-index: 2;
+}​
+    </style>
     <!-- Mission and Vision-->
-        <div class="jumbotron" id="mission" stylbackground-image:url('img/csi-logo.png');background-position: center;background-repeat: no-repeat;back">
+    <div id="my_container">
+        <div class="jumbotron" id="mission" style="background-color: transparent;">
             <h3 class="display-5">Mission:</h3>
-            <p class="lead"> 
+            <p class="lead" style="font-weight: 350;"> 
 
 <i class="fa fa-chevron-right" aria-hidden="true"></i>&emsp;Provide a platform for sharing knowledge<br>
 
@@ -176,15 +194,15 @@
 <i class="fa fa-chevron-right" aria-hidden="true"></i>&emsp;Be the bridge between the students and the professional world<br></p>
 
             <h3 class="display-5">Vision :</h3>
-            <p class="lead">
+            <p class="lead" style="font-weight: 350;">
 <i class="fa fa-chevron-right" aria-hidden="true"></i>&emsp;A step towards making visionary leaders of tomorrow.<br>
 
 <i class="fa fa-chevron-right" aria-hidden="true"></i>&emsp;Become a platform for sharing innovative and revolutionary ideas.
             </p>
             
         </div>
-
-	</div><!--Container ends -->
+    </div>
+    </div><!--Container ends -->
 
 	<script src="js/jssor.slider-26.1.5.min.js" type="text/javascript"></script>
     <script type="text/javascript">

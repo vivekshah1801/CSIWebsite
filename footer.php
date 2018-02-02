@@ -15,10 +15,10 @@
             	
                     <ul class="pages">
                         <li><a href="index.php">HOME</a></li>
-                        <li><a href="about_us.php">ABOUT US</a></li>
-                        <li><a href="gallery.php">Gallery</a></li>
-                        <li><a href="past_committees.php">PAST COMMITTEE</a></li>
+                        <li><a href="gallery.php">Events</a></li>
                         <li><a href="present_committee.php">PRESENT COMMITTEE</a></li>
+                        <li><a href="past_committees.php">PAST COMMITTEE</a></li>
+                        <li><a href="about_us.php">ABOUT</a></li>
                         <li><a href="contact_us.php">CONTACT US</a></li>
                     </ul>
                
@@ -29,7 +29,8 @@
             	<ul>
                 	<li><a href="https://www.facebook.com/Computer-Society-of-India-DDU-Student-Branch-328507823907859/">
                         <i class="fa fa-facebook-square" aria-hidden="true"></i>&nbspFacebook</a></li>
-                	<li><a href="http://instagram.com/csi_ddu"><i class="fa fa-instagram" aria-hidden="true"></i>&nbspInstagram</a></li>
+                    <li><a href="http://instagram.com/csi_ddu"><i class="fa fa-instagram" aria-hidden="true"></i>&nbspInstagram</a></li>
+                	<li><a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=csi.ddit@gmail.com&tf=1"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbspEmail</a></li>
                 </ul>
                 <br>
                 <h4>Desgined By</h4>

@@ -42,11 +42,11 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/past_committee/2015-17/15_maitri.jpeg" class="rounded-circle img-fluid">
+              <img src="img/past_committee/2015-17/15_maitri.jpg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
-                <a href="https://in.linkedin.com/in/abhishek-jaguwala-7aa27bba" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/maitri-patel-bb2b71146/" target="_blank"><i class="fa fa-linkedin"></i></a>
               </div><!-- /.team-links-list -->
             </div><!-- /.team-links -->
           </div><!-- /.team-image -->
@@ -80,16 +80,16 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/past_committee/2015-17/15_ravinder.jpg_harshal.jpg" class="rounded-circle img-fluid">
+              <img src="img/past_committee/2015-17/15_juhi.jpg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
-                <a href="https://www.linkedin.com/in/harshal-sheth-528150136/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/juhi-madhwani-9b07b8115/" target="_blank"><i class="fa fa-linkedin"></i></a>
               </div><!-- /.team-links-list -->
             </div><!-- /.team-links -->
           </div><!-- /.team-image -->
           <div class="team-content">
-            <div class="team-name"><h5>Harshal seth</h5></div>
+            <div class="team-name"><h5>Juhi Madhwani</h5></div>
             <div class="team-role">Joint Secretary</div>
             <div class="team-description"></div>
           </div><!-- /.team-content -->
@@ -120,16 +120,16 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/past_committee/2015-17/15_ravinder.jpg_vaibhav.jpeg" class="rounded-circle img-fluid">
+              <img src="img/past_committee/2015-17/15_harsh.jpeg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
-                <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/harshsodiwala" target="_blank"><i class="fa fa-linkedin"></i></a>
               </div><!-- /.team-links-list -->
             </div><!-- /.team-links -->
           </div><!-- /.team-image -->
           <div class="team-content">
-            <div class="team-name"><h5>Vaibhav Dodiya</h5></div>
+            <div class="team-name"><h5>Harsh Sodiwala</h5></div>
             <div class="team-role">Techical Head</div>
             <div class="team-description"></div>
           </div><!-- /.team-content -->
@@ -139,7 +139,7 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/past_committee/2015-17/15_sanket.jpeg" class="rounded-circle img-fluid">
+              <img src="img/past_committee/2015-17/15_sanket.jpg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
@@ -149,7 +149,7 @@
           </div><!-- /.team-image -->
           <div class="team-content">
             <div class="team-name"><h5>Sanket Bhimani</h5></div>
-            <div class="team-role">Asscoiate Techical Head</div>
+            <div class="team-role">Web Desiging Head</div>
             <div class="team-description"></div>
           </div><!-- /.team-content -->
         </div><!-- /.team -->
@@ -168,7 +168,7 @@
           </div><!-- /.team-image -->
           <div class="team-content">
             <div class="team-name"><h5>Varun Shah</h5></div>
-            <div class="team-role">Technical Assistant</div>
+            <div class="team-role">Asscoiate Techical Head</div>
             <div class="team-description"></div>
           </div><!-- /.team-content -->
         </div><!-- /.team -->
@@ -225,7 +225,7 @@
           </div><!-- /.team-image -->
           <div class="team-content">
             <div class="team-name"><h5>Ishaan Shringi</h5></div>
-            <div class="team-role">Assistant Designer</div>
+            <div class="team-role">Committee Member</div>
             <div class="team-description"></div>
           </div><!-- /.team-content -->
         </div><!-- /.team -->
@@ -243,7 +243,7 @@
 <hr>
 <br>
     <div class="row justify-content-md-center">
-      <div class="col-lg-2 col-sm-4 col-xs-6 col-lg-offset-1 "><!-- add col-lg-offset-1 for 5 members -->
+      <div class="col-lg-2 col-sm-4 col-xs-6 col-lg-offset-2 "><!-- add col-lg-offset-1 for 5 members -->
         <div class="team">
           <div class="team-image">
             <a href="#">
@@ -266,16 +266,16 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/past_committee/2014-16/14_abhishek.jpeg" class="rounded-circle img-fluid">
+              <img src="img/past_committee/2014-16/14_sagar.jpg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
-                <a href="https://in.linkedin.com/in/abhishek-jaguwala-7aa27bba" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/sagar-sheth-1ba462a1/" target="_blank"><i class="fa fa-linkedin"></i></a>
               </div><!-- /.team-links-list -->
             </div><!-- /.team-links -->
           </div><!-- /.team-image -->
           <div class="team-content">
-            <div class="team-name"><h5>Abhishek&nbspjaguwala</h5></div>
+            <div class="team-name"><h5>Sagar Sheth</h5></div>
             <div class="team-role">Vice President</div>
             <div class="team-description"></div>
           </div><!-- /.team-content -->
@@ -285,11 +285,11 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/past_committee/2014-16/14_jainil.png" class="rounded-circle img-fluid">
+              <img src="img/past_committee/2014-16/14_vidisha.jpg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
-                <a href="https://www.linkedin.com/in/jainil-desai-59121135/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/vidisha-shah-583718118/" target="_blank"><i class="fa fa-linkedin"></i></a>
               </div><!-- /.team-links-list -->
             </div><!-- /.team-links -->
           </div><!-- /.team-image -->
@@ -304,11 +304,11 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/past_committee/2014-16/14_harshal.jpg" class="rounded-circle img-fluid">
+              <img src="img/past_committee/2014-16/14_kinjal.jpg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
-                <a href="https://www.linkedin.com/in/harshal-sheth-528150136/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/kinjal-hinsu-219283129/" target="_blank"><i class="fa fa-linkedin"></i></a>
               </div><!-- /.team-links-list -->
             </div><!-- /.team-links -->
           </div><!-- /.team-image -->
@@ -319,41 +319,23 @@
           </div><!-- /.team-content -->
         </div><!-- /.team -->
       </div>
-      <div class="col-lg-2 col-sm-4 col-xs-6">
-        <div class="team">
-          <div class="team-image">
-            <a href="#">
-              <img src="img/past_committee/2014-16/14_khushboo.jpg"  class="rounded-circle img-fluid">
-            </a>
-            <div class="team-links">
-              <div class="team-links-list">
-                <a href="https://www.linkedin.com/in/khushboo-mehta-45a7b4134" target="_blank"><i class="fa fa-linkedin"></i></a>
-              </div><!-- /.team-links-list -->
-            </div><!-- /.team-links -->
-          </div><!-- /.team-image -->
-          <div class="team-content">
-            <div class="team-name"><h5>Khushboo Mehta</h5></div>
-            <div class="team-role">Treasurer</div>
-            <div class="team-description"></div>
-          </div><!-- /.team-content -->
-        </div><!-- /.team -->
-      </div>
+      
     </div>
     <div class="row justify-content-md-center">
-      <div class="col-lg-2 col-sm-4 col-xs-6 col-lg-offset-1 "><!-- add col-lg-offset-1 for 5 members -->
+      <div class="col-lg-2 col-sm-4 col-xs-6 col-lg-offset-2 "><!-- add col-lg-offset-1 for 5 members -->
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/past_committee/2014-16/14_vaibhav.jpeg" class="rounded-circle img-fluid">
+              <img src="img/past_committee/2014-16/14_shaunak.jpg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
-                <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/shaunak-thaker-558b3483/" target="_blank"><i class="fa fa-linkedin"></i></a>
               </div><!-- /.team-links-list -->
             </div><!-- /.team-links -->
           </div><!-- /.team-image -->
           <div class="team-content">
-            <div class="team-name"><h5>Vaibhav Dodiya</h5></div>
+            <div class="team-name"><h5>Shaunak Thakkar</h5></div>
             <div class="team-role">Technical Head</div>
             <div class="team-description"></div>
           </div><!-- /.team-content -->
@@ -382,17 +364,17 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/past_committee/2014-16/14_raj.jpg" class="rounded-circle img-fluid">
+              <img src="img/past_committee/2014-16/14_khushboo.jpg"  class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
-                <a href="https://www.linkedin.com/in/raj-kansara-024855134" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/khushboo-mehta-45a7b4134" target="_blank"><i class="fa fa-linkedin"></i></a>
               </div><!-- /.team-links-list -->
             </div><!-- /.team-links -->
           </div><!-- /.team-image -->
           <div class="team-content">
-            <div class="team-name"><h5>Raj Kansara</h5></div>
-            <div class="team-role">Technical Assistant</div>
+            <div class="team-name"><h5>Khushboo Mehta</h5></div>
+            <div class="team-role">Treasurer</div>
             <div class="team-description"></div>
           </div><!-- /.team-content -->
         </div><!-- /.team -->
@@ -412,25 +394,6 @@
           <div class="team-content">
             <div class="team-name"><h5>Akshay Prajapati</h5></div>
             <div class="team-role">Desiging Head</div>
-            <div class="team-description"></div>
-          </div><!-- /.team-content -->
-        </div><!-- /.team -->
-      </div>
-      <div class="col-lg-2 col-sm-4 col-xs-6">
-        <div class="team">
-          <div class="team-image">
-            <a href="#">
-              <img src="img/past_committee/2014-16/14_pururaj.jpeg" class="rounded-circle img-fluid">
-            </a>
-            <div class="team-links">
-              <div class="team-links-list">
-                <a href="http://linkedin.com/in/pururajsinh-s-2a769085" target="_blank"><i class="fa fa-linkedin"></i></a>
-              </div><!-- /.team-links-list -->
-            </div><!-- /.team-links -->
-          </div><!-- /.team-image -->
-          <div class="team-content">
-            <div class="team-name"><h5>Pururajsinh Solanki</h5></div>
-            <div class="team-role">Assistant Designer</div>
             <div class="team-description"></div>
           </div><!-- /.team-content -->
         </div><!-- /.team -->
