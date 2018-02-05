@@ -32,10 +32,10 @@
 	</style>
 	<nav class="navbar navbar-toggleable-md navbar-light fixed-top" style="background-color:#003399;height:62px;">
 		<a href="index.php"><img src="img/logo.jpeg"  height="42" width="200" /></a>
-	  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 	  </button>
-		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		  <div class="collapse navbar-collapse" id="">
 			<div class="navbar-nav">
 	  		<div class="container">
 				<div class="row">
@@ -62,5 +62,56 @@
 			</div> <!--Container ended-->
 			</div>
 		  </div>
+
+	  		<div class="container" id="navbarNavAltMarkup" style="display: none;">
+				<div class="row">
+				<div class="col-12" align="center">
+					<a class="nav-item nav-link <?php if(isset($page_tab) and $page_tab == "home"){echo "active";}?>" href="index.php" >Home </a>
+				</div>
+				<div class="col-12" align="center">
+					<a class="nav-item nav-link <?php if(isset($page_tab) and $page_tab == "gallery"){echo "active";}?>" href="gallery.php">Events</a>
+				</div>
+				<div class="col-12" align="center">
+					<a class="nav-item nav-link <?php if(isset($page_tab) and $page_tab == "present_committee"){echo "active";}?>" href="present_committee.php">Present Committees</a>
+				</div>
+				<div class="col-12 " align="center">
+					<a class="nav-item nav-link <?php if(isset($page_tab) and $page_tab == "past_committees"){echo "active";}?>" href="past_committees.php">Past Committees</a>
+				</div>
+				<div class="col-12" align="center">
+					<a class="nav-item nav-link <?php if(isset($page_tab) and $page_tab == "about_us"){echo "active";}?>" href="about_us.php" >About</a>
+				</div>
+				<div class="col-12" align="center">
+					<a class="nav-item nav-link <?php if(isset($page_tab) and $page_tab == "contact_us"){echo "active";}?>" href="contact_us.php">Contact us</a>
+				</div>
+				</div> 
+			 
+			</div> <!--Container ended-->
 	</nav>
+	<script type="text/javascript">
+		$('.navbar-toggler-right').click(function(){
+			var _opened = $("#navbarNavAltMarkup").hasClass("show");
+			if (_opened) {
+				$('#navbarNavAltMarkup').hide();
+			}
+			else{
+				$('#navbarNavAltMarkup').show();
+			}
+		});
+		// $(document).click(function(){
+		// 	$('.navbar-toggler-right').click();
+		// });
+		$(document).ready(function () {
+		    $(document).click(function (event) {
+		        var clickover = $(event.target);
+		    	// console.log(clickover);
+		        var _opened = $("#navbarNavAltMarkup").hasClass("show");
+		        if (_opened === true && !clickover.hasClass("collapse")) {
+		    		// alert('clickover');
+		            $("button.navbar-toggler-right").click();
+					$('#navbarNavAltMarkup').hide();
+		            
+		        }
+		    });
+		});
+	</script>
 	<body>

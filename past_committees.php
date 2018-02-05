@@ -51,7 +51,7 @@
             </div><!-- /.team-links -->
           </div><!-- /.team-image -->
           <div class="team-content">
-            <div class="team-name"><h5>Abhishek&nbspjaguwala</h5></div>
+            <div class="team-name"><h5>Maitri Patel</h5></div>
             <div class="team-role">Vice President</div>
             <div class="team-description"></div>
           </div><!-- /.team-content -->
@@ -80,7 +80,7 @@
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="img/past_committee/2015-17/15_juhi.jpg" class="rounded-circle img-fluid">
+              <img src="img/past_committee/2015-17/15_juhi.jpeg" class="rounded-circle img-fluid">
             </a>
             <div class="team-links">
               <div class="team-links-list">
@@ -294,7 +294,7 @@
             </div><!-- /.team-links -->
           </div><!-- /.team-image -->
           <div class="team-content">
-            <div class="team-name"><h5>Jainil Desai</h5></div>
+            <div class="team-name"><h5>Vidisha Shah</h5></div>
             <div class="team-role">Secretary</div>
             <div class="team-description"></div>
           </div><!-- /.team-content -->
@@ -313,7 +313,7 @@
             </div><!-- /.team-links -->
           </div><!-- /.team-image -->
           <div class="team-content">
-            <div class="team-name"><h5>Harshal seth</h5></div>
+            <div class="team-name"><h5>Kinjal Hinsu</h5></div>
             <div class="team-role">Joint Secretary</div>
             <div class="team-description"></div>
           </div><!-- /.team-content -->
