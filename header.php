@@ -20,10 +20,6 @@
 	.active{
 		background-color:rgba(0,34,241,0.6)
 	}
-	padding{
-		padding-right:47px;
-		padding-left:47px;
-	}
 	.navbar-toggler-right {
 	    position: fixed;
 	    right: 1rem;
@@ -63,25 +59,25 @@
 			</div>
 		  </div>
 
-	  		<div class="container" id="navbarNavAltMarkup" style="display: none;">
+	  		<div class="" id="navbarNavAltMarkup" style="display: none;background-color: rgba(69,64,165,0.7)">
 				<div class="row">
-				<div class="col-12" align="center">
-					<a class="nav-item nav-link <?php if(isset($page_tab) and $page_tab == "home"){echo "active";}?>" href="index.php" >Home </a>
-				</div>
-				<div class="col-12" align="center">
-					<a class="nav-item nav-link <?php if(isset($page_tab) and $page_tab == "gallery"){echo "active";}?>" href="gallery.php">Events</a>
-				</div>
-				<div class="col-12" align="center">
-					<a class="nav-item nav-link <?php if(isset($page_tab) and $page_tab == "present_committee"){echo "active";}?>" href="present_committee.php">Present Committees</a>
-				</div>
 				<div class="col-12 " align="center">
-					<a class="nav-item nav-link <?php if(isset($page_tab) and $page_tab == "past_committees"){echo "active";}?>" href="past_committees.php">Past Committees</a>
+					<a class="white-color nav-item nav-link <?php if(isset($page_tab) and $page_tab == "home"){echo "active";}?>" href="index.php" >Home </a>
 				</div>
 				<div class="col-12" align="center">
-					<a class="nav-item nav-link <?php if(isset($page_tab) and $page_tab == "about_us"){echo "active";}?>" href="about_us.php" >About</a>
+					<a class="white-color nav-item nav-link <?php if(isset($page_tab) and $page_tab == "gallery"){echo "active";}?>" href="gallery.php">Events</a>
 				</div>
 				<div class="col-12" align="center">
-					<a class="nav-item nav-link <?php if(isset($page_tab) and $page_tab == "contact_us"){echo "active";}?>" href="contact_us.php">Contact us</a>
+					<a class="white-color nav-item nav-link <?php if(isset($page_tab) and $page_tab == "present_committee"){echo "active";}?>" href="present_committee.php">Present Committees</a>
+				</div>
+				<div class="col-12" align="center">
+					<a class="white-color nav-item nav-link <?php if(isset($page_tab) and $page_tab == "past_committees"){echo "active";}?>" href="past_committees.php">Past Committees</a>
+				</div>
+				<div class="col-12" align="center">
+					<a class="white-color nav-item nav-link <?php if(isset($page_tab) and $page_tab == "about_us"){echo "active";}?>" href="about_us.php" >About</a>
+				</div>
+				<div class="col-12" align="center">
+					<a class="white-color nav-item nav-link <?php if(isset($page_tab) and $page_tab == "contact_us"){echo "active";}?>" href="contact_us.php">Contact us</a>
 				</div>
 				</div> 
 			 
