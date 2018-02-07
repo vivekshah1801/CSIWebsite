@@ -59,7 +59,7 @@
 			</div>
 		  </div>
 
-	  		<div class="" id="navbarNavAltMarkup" style="display: none;background-color: rgba(69,64,165,0.7)">
+	  		<div class="" id="navbarNavAltMarkup" style="display: none;background-color: rgba(0,51,153,0.7)">
 				<div class="row">
 				<div class="col-12 hover-me" align="center">
 					<a class="white-color nav-item nav-link <?php if(isset($page_tab) and $page_tab == "home"){echo "active";}?>" href="index.php" >Home </a>
