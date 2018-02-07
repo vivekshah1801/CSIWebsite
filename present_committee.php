@@ -179,7 +179,7 @@
           </div><!-- /.team-image -->
           <div class="team-content">
             <div class="team-name"><h5>Bhargav Lad</h5></div>
-            <div class="team-role">Asscoiate Techical Head</div>
+            <div class="team-role">Asscoiate Technical Head</div>
             <div class="team-description"></div>
           </div><!-- /.team-content -->
         </div><!-- /.team -->
