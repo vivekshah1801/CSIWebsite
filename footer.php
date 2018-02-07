@@ -6,7 +6,8 @@
         	<div class="col-md-5 footer-brand animated fadeInLeft">
             	<img src="img/logo.jpeg" height="52" width="200" style="padding-bottom:10px "/>
                 
-                <p>A step towards making visionary leaders of tomorrow and Become a platform for sharing innovative and revolutionary ideas. </p>
+                <p>Where knowledge meets people and passion meets opportunities.</br>
+                A step towards making visionary leaders of tomorrow and Become a platform for sharing innovative and revolutionary ideas. </p>
                 <p>Email-id: csi.ddit@gmail.com</p>
                 <p>© 2018 CSI DDU, All rights reserved</p>
             </div>
