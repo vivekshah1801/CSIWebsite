@@ -198,7 +198,7 @@
           </div><!-- /.team-image -->
           <div class="team-content">
             <div class="team-name"><h5>Raj Kansara</h5></div>
-            <div class="team-role">Technical Assistant</div>
+            <div class="team-role">Technical Executive</div>
             <div class="team-description"></div>
           </div><!-- /.team-content -->
         </div><!-- /.team -->
@@ -236,7 +236,7 @@
           </div><!-- /.team-image -->
           <div class="team-content">
             <div class="team-name"><h5>Pururajsinh Solanki</h5></div>
-            <div class="team-role">Assistant Designer</div>
+            <div class="team-role">Assistant Executive</div>
             <div class="team-description"></div>
           </div><!-- /.team-content -->
         </div><!-- /.team -->

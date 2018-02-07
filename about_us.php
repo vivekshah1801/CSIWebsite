@@ -178,9 +178,9 @@
 			<strong>Paper Presentation award at international award</strong>: This was also presented to Professor
 			<span class="Apple-converted-space">&nbsp;</span>Tushar Ratanpara.</p>
 		<p class="p6">&nbsp;</p>
-		<div class="row"><div class="col-md-4"><img src="img/ckb.jpg"  height="300px" width="300px" /></div>
-		<div class="col-md-4"><img src="img/ckb.jpg"  height="300px" width="300px" /></div>
-		<div class="col-md-4"><img src="img/ckb.jpg"  height="300px" width="300px" /></div></div>
+		<div class="row"><div class="col-md-4"><img src="img/certi1.png"  height="300px" width="300px" /></div>
+		<div class="col-md-4"><img src="img/certi2.png"  height="300px" width="300px" /></div>
+		<div class="col-md-4"><img src="img/certi3.png"  height="300px" width="300px" /></div></div>
 		<br>
 		<p class="p1">
 			<span class="s1">We believe that there are two things that are very important for the growth of any organization and every single person
