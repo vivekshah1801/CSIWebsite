@@ -8,11 +8,9 @@
 <section id="team" class="text-center section">
   <div class="container">
 
-    <h1><span class="highlight_secondary">Faculty</span> Members</h1>
+    <h1><span class="highlight_secondary">Faculty</span> Member</h1>
 
-    <h5>
-      Our people are our greatest asset and biggest differentiator.<br>They also believe in having a lot of fun along the way.
-    </h5>
+  
 <hr>
 
     <div class="row justify-content-md-center">
@@ -43,7 +41,7 @@
       Our people are our greatest asset and biggest differentiator.<br>They also believe in having a lot of fun along the way.
     </h5>
 <hr>  
-<hr>  
+ 
     <h2 class="year"><span class="highlight_secondary">Senior</span> Committee</h2>
 <hr>  
 <br>

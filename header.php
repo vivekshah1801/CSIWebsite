@@ -46,7 +46,7 @@
 					<a class="white-color nav-item nav-link <?php if(isset($page_tab) and $page_tab == "gallery"){echo "active";}?>" href="gallery.php">Events</a>
 				</div>
 				<div class="col-2 col-lg-2 col-md-2 col-xl-2 " align="center">
-					<a class="white-color nav-item nav-link <?php if(isset($page_tab) and $page_tab == "present_committee"){echo "active";}?>" href="present_committee.php">Committee</a>
+					<a class="white-color nav-item nav-link <?php if(isset($page_tab) and $page_tab == "present_committee"){echo "active";}?>" href="present_committee.php">CSI Committee</a>
 				</div>
 				<div class="col-2 col-lg-2 col-md-2 col-xl-2 " align="center">
 					<a class="white-color nav-item nav-link <?php if(isset($page_tab) and $page_tab == "past_committees"){echo "active";}?>" href="past_committees.php">Past Committees</a>
