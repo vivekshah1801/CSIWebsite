@@ -8,11 +8,9 @@
 <section id="team" class="text-center section">
   <div class="container">
 
-    <h1><span class="highlight_secondary">Faculty</span> Members</h1>
+    <h1><span class="highlight_secondary">Faculty</span> Member</h1>
 
-    <h5>
-      Our people are our greatest asset and biggest differentiator.<br>They also believe in having a lot of fun along the way.
-    </h5>
+  
 <hr>
 
     <div class="row justify-content-md-center">
@@ -43,7 +41,7 @@
       Our people are our greatest asset and biggest differentiator.<br>They also believe in having a lot of fun along the way.
     </h5>
 <hr>  
-<hr>  
+ 
     <h2 class="year"><span class="highlight_secondary">Senior</span> Committee</h2>
 <hr>  
 <br>
@@ -179,7 +177,7 @@
           </div><!-- /.team-image -->
           <div class="team-content">
             <div class="team-name"><h5>Bhargav Lad</h5></div>
-            <div class="team-role">Asscoiate Techical Head</div>
+            <div class="team-role">Asscoiate Technical Head</div>
             <div class="team-description"></div>
           </div><!-- /.team-content -->
         </div><!-- /.team -->
@@ -198,7 +196,7 @@
           </div><!-- /.team-image -->
           <div class="team-content">
             <div class="team-name"><h5>Raj Kansara</h5></div>
-            <div class="team-role">Technical Assistant</div>
+            <div class="team-role">Technical Executive</div>
             <div class="team-description"></div>
           </div><!-- /.team-content -->
         </div><!-- /.team -->
@@ -236,7 +234,7 @@
           </div><!-- /.team-image -->
           <div class="team-content">
             <div class="team-name"><h5>Pururajsinh Solanki</h5></div>
-            <div class="team-role">Assistant Designer</div>
+            <div class="team-role">Assistant Executive</div>
             <div class="team-description"></div>
           </div><!-- /.team-content -->
         </div><!-- /.team -->

@@ -13,7 +13,7 @@
         <h5>
           Our people are our greatest asset and biggest differentiator.<br>They also believe in having a lot of fun along the way.
         </h5>
-<hr>  
+
 <hr>  
     <h2  class="year"><span class="highlight_secondary">2015-17</span> Committee</h2>
 <hr>  
