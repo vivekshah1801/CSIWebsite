@@ -11,7 +11,7 @@
 
 
 
-	<img src="img/006.jpg" style="float:left;margin-right:20px;" height="200" width="200px" />
+	<img src="img/csi-logo.png" style="float:left;margin-right:20px;" height="200" width="200px" />
 	<p>
 		<h4>
 			What is CSI?
@@ -34,6 +34,7 @@
 				to bring a difference in the lives of students that come in its reach. It was initiated in the year 2005 and since then
 				its only growing.</span>
 		</p>
+		<img src="img/ckb.jpg" style="float:right;margin-left:10px;" height="250px" width="300px" />
 		<p class="p1">
 			<span class="s1">It works in two-tier model:</span>
 		</p>
@@ -59,7 +60,7 @@
 		Our Contribution
 	</h4>
 
-	<img src="img/006.jpg" style="float:right;margin-left:10px;" height="210px" width="250px" />
+	
 	<p>
 		<p class="p1">
 			<span class="s1">Till now we have conducted various seminars on topics:</span>
@@ -142,6 +143,12 @@
 		<p class="p1">
 			<span class="s1">All of these events involve various rounds and the winners are declared and rewarded at the end of it.</span>
 		</p>
+		<br>
+		<h4>
+				Appreciation
+			</h4>
+			<br>
+
 		<p class="p1">
 			<span class="s1">C.S.I. DDU Student Branch has gathered appreciation from all the places and has bagged many awards:</span>
 		</p>
@@ -171,6 +178,10 @@
 			<strong>Paper Presentation award at international award</strong>: This was also presented to Professor
 			<span class="Apple-converted-space">&nbsp;</span>Tushar Ratanpara.</p>
 		<p class="p6">&nbsp;</p>
+		<div class="row"><div class="col-md-4"><img src="img/certi1.png"  height="300px" width="300px" /></div>
+		<div class="col-md-4"><img src="img/certi2.png"  height="300px" width="300px" /></div>
+		<div class="col-md-4"><img src="img/certi3.png"  height="300px" width="300px" /></div></div>
+		<br>
 		<p class="p1">
 			<span class="s1">We believe that there are two things that are very important for the growth of any organization and every single person
 				associated with it should imbibes these qualities:</span>
