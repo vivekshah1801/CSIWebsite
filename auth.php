@@ -40,7 +40,7 @@ and open the template in the editor.
  
                     $rows = mysqli_num_rows($query);
                     if($rows == 1){
-                        header('Location: index.php');
+                        header('Location: admin.php');
                         }
                     else{
                         echo '<div class="notFilled"> Invalid username or password </div><br/><br/>';
