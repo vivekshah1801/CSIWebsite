@@ -34,12 +34,12 @@
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
 
-  <div id="overlayer"></div>
+  <!-- <div id="overlayer"></div>
   <div class="loader">
     <div class="spinner-border text-primary" role="status">
       <span class="sr-only">Loading...</span>
     </div>
-  </div>
+  </div> -->
 
 
   <div class="site-wrap">
@@ -68,82 +68,35 @@
 	<section class="timeline">
 	  <div class="container">
 
+		<?php
+
+		include("db_connect.php");
+		$sql = "SELECT * from Event_master ORDER BY date DESC LIMIT 10";
+		$event_list = $pdo->query($sql)->fetchAll();
+		// now $event variable has list of events
+
+		foreach($event_list as $event){
+		?>
+
 	    <div class="timeline-item">
 
 	      <div class="timeline-img"></div>
 
 	      <div class="timeline-content timeline-card js--fadeInRight">
-	        <div class="timeline-img-header">
-	          <h2>Card Title</h2>
+	        <div class="timeline-img-header" style="background-image: url(<?php echo $event['photo_link']; ?>);">
+	          <h2><?php echo $event['name']; ?></h2>
 	        </div>
-	        <div class="date">25 MAY 2016</div>
-	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
-	        <a class="bnt-more" href="javascript:void(0)">More</a>
+	        <div class="date"><?php echo date("jS M, Y", strtotime($event['date'])); ?></div>
+	        <p><?php echo $event['description']; ?></p>
+	        <a class="bnt-more" href="<?php echo $event['blog_link']; ?>">More</a>
 	      </div>
 
 	    </div>
 
-		<div class="timeline-item">
-
-	      <div class="timeline-img"></div>
-
-	      <div class="timeline-content timeline-card js--fadeInRight">
-	        <div class="timeline-img-header">
-	          <h2>Card Title</h2>
-	        </div>
-	        <div class="date">25 MAY 2016</div>
-	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
-	        <a class="bnt-more" href="javascript:void(0)">More</a>
-	      </div>
-
-	    </div>
-
-		<div class="timeline-item">
-
-	      <div class="timeline-img"></div>
-
-	      <div class="timeline-content timeline-card js--fadeInRight">
-	        <div class="timeline-img-header">
-	          <h2>Card Title</h2>
-	        </div>
-	        <div class="date">25 MAY 2016</div>
-	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
-	        <a class="bnt-more" href="javascript:void(0)">More</a>
-	      </div>
-
-	    </div>
-
-		<div class="timeline-item">
-
-	      <div class="timeline-img"></div>
-
-	      <div class="timeline-content timeline-card js--fadeInRight">
-	        <div class="timeline-img-header">
-	          <h2>Card Title</h2>
-	        </div>
-	        <div class="date">25 MAY 2016</div>
-	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
-	        <a class="bnt-more" href="javascript:void(0)">More</a>
-	      </div>
-
-	    </div>
-
-		<div class="timeline-item">
-
-	      <div class="timeline-img"></div>
-
-	      <div class="timeline-content timeline-card js--fadeInRight">
-	        <div class="timeline-img-header">
-	          <h2>Card Title</h2>
-	        </div>
-	        <div class="date">25 MAY 2016</div>
-	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
-	        <a class="bnt-more" href="javascript:void(0)">More</a>
-	      </div>
-
-	    </div>
-
-
+		<?php
+		}
+		$pdo = null;
+		?>
 	  </div>
 	</section>
 
