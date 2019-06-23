@@ -10,13 +10,14 @@
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/jquery-ui.css">
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 
 	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
 
 	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
 	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 
@@ -126,40 +127,33 @@
 		  </div>
 
 		  <div class="row">
-			<div class="col-md-6 col-lg-4 mb-2 mb-lg-4" data-aos="fade-up" data-aos-delay="">
+
+			<?php
+
+  			include("db_connect.php");
+  			$sql = "SELECT * from Event_master ORDER BY date DESC LIMIT 3";
+  			$event_list = $pdo->query($sql)->fetchAll();
+  			// now $event variable has list of events
+
+  			foreach($event_list as $event){
+  			?>
+
+			<div class="col-md-6 col-lg-4 mb-2 mb-lg-4" data-aos="fade-up">
 			  <div class="h-entry">
-				<a href="single.html">
-				  <img src="images/img_1.jpg" alt="Image" class="img-fluid">
+				<a href="<?php echo $event['blog_link']; ?>">
+				  <img src="<?php echo $event['photo_link']; ?>" alt="Recent CSI event photo" class="img-fluid">
 				</a>
-				<h2 class="font-size-regular"><a href="#">Banking is good for business? Why?</a></h2>
-				<div class="meta mb-4">Ham Brook <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-				<p><a href="#">Continue Reading...</a></p>
-			  </div>
-			</div>
-			<div class="col-md-6 col-lg-4 mb-2 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
-			  <div class="h-entry">
-				<a href="single.html">
-				  <img src="images/img_4.jpg" alt="Image" class="img-fluid">
-				</a>
-				<h2 class="font-size-regular"><a href="#">Banking is good for business? Why?</a></h2>
-				<div class="meta mb-4">James Phelps <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-				<p><a href="#">Continue Reading...</a></p>
-			  </div>
-			</div>
-			<div class="col-md-6 col-lg-4 mb-2 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
-			  <div class="h-entry">
-				<a href="single.html">
-				  <img src="images/img_3.jpg" alt="Image" class="img-fluid">
-				</a>
-				<h2 class="font-size-regular"><a href="#">Banking is good for business? Why?</a></h2>
-				<div class="meta mb-4">James Phelps <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-				<p><a href="#">Continue Reading...</a></p>
+				<h2 class="font-size-regular"><a href="<?php echo $event['blog_link']; ?>"><?php echo $event['name']; ?></a></h2>
+				<div class="meta mb-4"><?php echo date("jS M, Y", strtotime($event['date'])); ?><span class="mx-2">&bullet;</span><?php echo $event['type']; ?></div>
+				<p><?php echo $event['description']; ?></p>
+				<p><a href="<?php echo $event['blog_link']; ?>">Continue Reading...</a></p>
 			  </div>
 			</div>
 
+			<?php
+			}
+			$pdo = null;
+			?>
 		  </div>
 		</div>
 	  </section>
