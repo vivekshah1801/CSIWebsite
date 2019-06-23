@@ -113,11 +113,11 @@ body:after {
       font-size: 3rem; } }
 
 .site-footer {
-  padding: 4em 0;
+  padding: 3em 0;
   background: #343a40; }
   @media (min-width: 768px) {
     .site-footer {
-      padding: 8em 0; } }
+      padding: 3em 0; } }
   .site-footer .border-top {
     border-top: 1px solid rgba(255, 255, 255, 0.1) !important; }
   .site-footer p {
