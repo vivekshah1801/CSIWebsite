@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
   <link rel="stylesheet" href="fonts/icomoon/style.css">
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -27,6 +27,7 @@
   <link rel="stylesheet" href="css/timeline.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:100i,300,400,500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 
 </head>
 
@@ -52,7 +53,7 @@
 
           <div class="col-md-12 mt-lg-5 text-center">
             <h1 class="mb-4">What We Do?</h1>
-            <p class="desc mb-4">We organize various events round the calendar.<br>Here is the chronicle of seminars, events and competition we organized.</p>
+            <p class="desc mb-4">We organize various events round the calendar. <br>This not only keeps the club active but students also gets to intract with industry experts.<br>Here is the chronicle of seminars, events and competition we organized.</p>
 
 			<a href="#" target="_blank" class="btn  btn-primary mr-2 mb-2 mt-3">Have a Look</a>
 
