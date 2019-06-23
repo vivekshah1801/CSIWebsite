@@ -82,7 +82,7 @@
 
 	      <div class="timeline-img"></div>
 
-	      <div class="timeline-content timeline-card js--fadeInRight">
+	      <div class="timeline-content timeline-card">
 	        <div class="timeline-img-header" style="background-image: url(<?php echo $event['photo_link']; ?>);">
 	          <h2><?php echo $event['name']; ?></h2>
 	        </div>

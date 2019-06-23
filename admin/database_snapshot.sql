@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 23, 2019 at 09:43 PM
+-- Generation Time: Jun 23, 2019 at 10:20 PM
 -- Server version: 10.3.15-MariaDB
 -- PHP Version: 7.1.30
 
@@ -21,6 +21,21 @@ SET time_zone = "+00:00";
 --
 -- Database: `csiwebsite`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `blog_master`
+--
+
+CREATE TABLE `blog_master` (
+  `blog_id` int(7) NOT NULL,
+  `title` varchar(80) NOT NULL,
+  `date_published` date NOT NULL DEFAULT current_timestamp(),
+  `content` varchar(30000) NOT NULL,
+  `author` varchar(50) NOT NULL DEFAULT 'CSI DDU',
+  `photo_link` varchar(500) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -54,6 +69,12 @@ INSERT INTO `event_master` (`id`, `name`, `type`, `date`, `description`, `photo_
 --
 
 --
+-- Indexes for table `blog_master`
+--
+ALTER TABLE `blog_master`
+  ADD PRIMARY KEY (`blog_id`);
+
+--
 -- Indexes for table `event_master`
 --
 ALTER TABLE `event_master`
@@ -62,6 +83,12 @@ ALTER TABLE `event_master`
 --
 -- AUTO_INCREMENT for dumped tables
 --
+
+--
+-- AUTO_INCREMENT for table `blog_master`
+--
+ALTER TABLE `blog_master`
+  MODIFY `blog_id` int(7) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `event_master`
