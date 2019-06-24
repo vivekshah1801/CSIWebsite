@@ -37,10 +37,7 @@
 	<div class="row mt-1 pt-1 text-center">
 	  <div class="col-md-12">
 		<div class="border-top pt-3">
-		  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-		  <p> Copyright &copy; 2019 | Designed & Developed by CSI DDU Student Branch </p>
-		  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-
+		   <p> Copyright &copy; 2019 | Designed & Developed by CSI DDU Student Branch </p>
 		</div>
 	  </div>
 
