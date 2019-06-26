@@ -5,7 +5,7 @@
 <section id="team" class="pb-5">
 <div class="container">
 <?php 
-  include('dbconnect.php');
+  include('db_connect.php');
   $news="SELECT * FROM news";
     $run_query=mysqli_query($conn,$news);
     if(mysqli_num_rows($run_query)){
