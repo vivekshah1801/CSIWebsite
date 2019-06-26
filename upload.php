@@ -1,14 +1,14 @@
-<?php 
-	
+<?php
+
 	include('db_connect.php');
 	if(!empty($_FILES["myFile"]["name"]))
 	{
-    
+
         $n="assets/images/".basename($_FILES["myFile"]["name"]);
         $new=basename($_FILES["myFile"]["name"]);
 		if(!(move_uploaded_file($_FILES["myFile"]["tmp_name"], $n)))
                 {echo "Error: " . $_FILES["myFile"]["error"] . "<br>";}
-		
+
 	}
 
 
@@ -26,16 +26,15 @@
 					$sql="INSERT INTO news (name,myFile,headline,story,timestamp) VALUES ('$name','$new','$headline','$story',NOW())";
 					$run_query=mysqli_query($conn,$sql);
 
-					
 					if($run_query){
 						header("Location: blog.php");
 
 					}
 			}
-		
-	
 
-	
 
-	
+
+
+
+
  ?>

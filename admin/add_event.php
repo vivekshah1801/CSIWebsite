@@ -56,7 +56,7 @@
 			?>
 		</div>
 
-		<form class="container site-section mt-4" method="post" action="addevent_db.php">
+		<form class="container site-section mt-4 mb-5" method="post" action="addevent_db.php" enctype="multipart/form-data">
 
 		  <div class="form-group">
 		    <label for="event_name">Event Name</label>
@@ -79,30 +79,30 @@
 
 		  <div class="form-group date">
 			<label for="event_date">Event Date</label>
-			<input type="date" class="form-control" id="event_date" name="event_date" required>
+			<input type="date" class="form-control" id="event_date" name="date" required>
 			<small id="event_date_help" class="form-text text-muted">In case of events spanning more than one day provide starting date or most cruicial date. Mention other details in event's description.</small>
 		  </div>
 
+		  <div class="form-group">
+    		<label for="event_description">Event Description</label>
+    		<textarea class="form-control" id="event_description" rows="4" name="description" required></textarea>
+			<small id="event_description_help" class="form-text text-muted">Provide 300 words short brief about the event.</small>
+  		  </div>
+
 		  <label for="event_photo">Event Photo Upload</label>
 		  <div class="form-group custom-file">
-			<input type="file" class="custom-file-input" id="event_photo" name="event_photo" required>
-			<label class="custom-file-label" for="event_photo">Choose file</label>
+			<input type="file" class="custom-file-input" id="photo_link" name="photo_link" required>
+			<label class="custom-file-label" id="event_photo_help" for="event_photo">Choose file</label>
 			<small id="event_photo_help" class="form-text text-muted">Provide a high-resolution JPEG/JPG/PNG image.</small>
 		  </div>
 
 		  <div class="form-group mt-5">
-    		<label for="event_description">Event Description</label>
-    		<textarea class="form-control" id="event_description" rows="3" name="event_description" required></textarea>
-			<small id="event_description_help" class="form-text text-muted">Provide 300 words short brief about the event.</small>
-  		  </div>
-
-		  <div class="form-group mt-4">
 		    <label for="event_blog_link">Event Blog Link</label>
 		    <input type="text" class="form-control" id="event_blog_link" placeholder="Event Blog Link" name="blog_link">
 		    <small id="event_blog_link_help" class="form-text text-muted">Provide a valid resolved URL for the blog corrsponding to this event. Leave blank otherwise.</small>
 		  </div>
 
-		  <button type="submit" class="btn btn-primary">Submit</button>
+		  <button type="submit" class="btn btn-primary mt-2">Submit</button>
 		</form>
 
 		<footer class="border-top pt-3 pb-3 mt-1 text-center bg-dark text-white mb-0">
@@ -125,6 +125,12 @@
 
 	    <script src="../js/main.js"></script>
 
-
+		<!-- <script>
+			//following code shows name of the file appear on select
+			$("#event_photo").on("change", function() {
+			  var fileName = $(this).val().split("\\").pop();
+			  $(this).siblings("#event_photo_help").addClass("selected").html(fileName);
+			});
+		</script> -->
 </body>
 </html>
