@@ -46,10 +46,22 @@
 	  					<strong>Success!</strong> Event added successfully.
 						</div>';
 					}
-					if($_GET['msg']=="error")
+					else if($_GET['msg']=="error")
 					{
 						echo '<div class="alert alert-danger text-center">
   						<strong>Oops!</strong> An error occured while adding event to database. Contact admin.
+						</div>';
+					}
+					else if($_GET['msg']=="event_empty")
+					{
+						echo '<div class="alert alert-warning text-center">
+  						<strong>Hello,</strong> Please fill the event form first.
+						</div>';
+					}
+					else if($_GET['msg']=="error_photo")
+					{
+						echo '<div class="alert alert-danger text-center">
+  						<strong>Oops!</strong> Error uploading photo for the event. Contact admin or try uploading again.
 						</div>';
 					}
 				}
@@ -125,12 +137,12 @@
 
 	    <script src="../js/main.js"></script>
 
-		<!-- <script>
+		<script>
 			//following code shows name of the file appear on select
-			$("#event_photo").on("change", function() {
+			$("#photo_link").on("change", function() {
 			  var fileName = $(this).val().split("\\").pop();
-			  $(this).siblings("#event_photo_help").addClass("selected").html(fileName);
+			  $(this).siblings("#event_photo_help").addClass("selected").text(fileName);
 			});
-		</script> -->
+		</script>
 </body>
 </html>

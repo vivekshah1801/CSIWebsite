@@ -96,19 +96,19 @@
 
 		<div class="row mb-5">
 		  <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="">
-			<img src="images/flaticon-svg/svg/001-wallet.svg" alt="Events" class="img-fluid w-25 mb-4">
+			<img src="images/event_icon.png" alt="Events" class="img-fluid w-25 mb-4">
 			<h3 class="card-title text-primary">Events</h3>
 			<p>replace this text.</p>
 		  </div>
 
 		  <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="100">
-			<img src="images/flaticon-svg/svg/004-cart.svg" alt="Workshops" class="img-fluid w-25 mb-4">
+			<img src="images/workshop_icon.png" alt="Workshops" class="img-fluid w-25 mb-4">
 			<h3 class="card-title text-primary">Workshops</h3>
 			<p>replace this text.</p>
 		  </div>
 
 		  <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="200">
-			<img src="images/flaticon-svg/svg/006-credit-card.svg" alt="Seminars" class="img-fluid w-25 mb-4">
+			<img src="images/seminar_icon.png" alt="Seminars" class="img-fluid w-25 mb-4">
 			<h3 class="card-title text-primary">Seminars</h3>
 			<p>replace this text.</p>
 		  </div>
@@ -141,7 +141,7 @@
 			<div class="col-md-6 col-lg-4 mb-2 mb-lg-4" data-aos="fade-up">
 			  <div class="h-entry">
 				<a href="<?php echo $event['blog_link']; ?>">
-				  <img src="<?php echo $event['photo_link']; ?>" alt="Recent CSI event photo" class="img-fluid">
+				  <img src="<?php echo $event['photo_link']; ?>" alt="Recent CSI event photo" class="img-fluid rounded">
 				</a>
 				<h2 class="font-size-regular"><a href="<?php echo $event['blog_link']; ?>"><?php echo $event['name']; ?></a></h2>
 				<div class="meta mb-4"><?php echo date("jS M, Y", strtotime($event['date'])); ?><span class="mx-2">&bullet;</span><?php echo $event['type']; ?></div>

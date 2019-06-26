@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="css/jquery.fancybox.min.css">
 
   <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-  
+
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
@@ -72,7 +72,7 @@
 		<?php
 
 		include("db_connect.php");
-		$sql = "SELECT * from Event_master ORDER BY date DESC LIMIT 10";
+		$sql = "SELECT * from Event_master ORDER BY date DESC LIMIT 15";
 		$event_list = $pdo->query($sql)->fetchAll();
 		// now $event variable has list of events
 

@@ -1,9 +1,9 @@
 <?php
 
 	//if authorized user directly accesses this poge
-	if($_POST['name']=="")
+	if(empty($_POST["name"]) || empty($_POST["type"]) || empty($_POST["date"]) || empty($_POST["description"]))
 	{
-		header("Location:/admin/add_event.php");
+		header("Location:add_event.php?msg=event_empty");
 		die();
 	}
 
@@ -27,20 +27,29 @@
 
 
 	include('../db_connect.php');
-	$event_id = $pdo->query("SELECT count(*) FROM Event_master")->fetchColumn();
+	$event_id = $pdo->query("SELECT MAX(id) FROM Event_master")->fetchColumn();
 	$event_id = (int)$event_id + 1;
 
 	echo $event_id;
 
-	$photo_link = "../assets/images/".$event_id.".".$file_ext;
-	move_uploaded_file($file_tmp,$photo_link);
+	//dont use ../ : as photo_link is going to be invoked by public html sibing folder.
+	$photo_link = "assets/images/".$event_id.".".$file_ext;
+
+	//appending ../ for moving to parent sibiling folder
+	move_uploaded_file($file_tmp,"../".$photo_link);
 
   	$name = $_POST['name'];
 	$type = $_POST['type'];
 	$date = $_POST['date'];
 	$desc = $_POST['description'];
-	$photo_link = "../assets/images/".$event_id.".".$file_ext;
+	$photo_link = "assets/images/".$event_id.".".$file_ext;
 	$blog_link = $_POST['blog_link'];
+
+	$stmt = $pdo->prepare("INSERT INTO event_master (name,type,date,description,photo_link,blog_link) VALUES (?, ?, ?, ?, ?, ?)");
+	$stmt->execute([$name, $type, $date,$desc,$photo_link,$blog_link]);
+
+	header("Location:add_event.php?msg=success");
+	die();
 
 	$pdo = null;
 
