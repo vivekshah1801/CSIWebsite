@@ -28,7 +28,7 @@
 
 					
 					if($run_query){
-						header("Location: news_view.php");
+						header("Location: blog.php");
 
 					}
 			}
