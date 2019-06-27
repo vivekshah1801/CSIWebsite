@@ -31,11 +31,10 @@ if(!isset($_SESSION))
                         if(!$id)
                             echo '<div class="notFilled"> Invalid Username or password. </div><br/><br/>';
                         else{
-                            if($id == 1)
+                                $_SESSION['user']=$_POST['name'];
                                 header('Location: admin_panel.php');
-                            else
-                                header('Location: '.$_SESSION['currentpage']);
-                            $_SESSION['user']=$_POST['name'];
+      
+                               
                         }
                     }
                     catch(PDOException $e){
