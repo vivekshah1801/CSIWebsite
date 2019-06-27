@@ -30,9 +30,33 @@
 </head>
 <body>
 
-
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand">CSI Admin</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="admin_dashboard.php">Dashboard</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="add_event.php">Add Event</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="view_event.php">Event List</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="add_blog.php">Add Blog</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="view_blog.php">Blog List</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
 		<section class="container site-section">
-			<h1 class="text-center text-primary mt-5 mb-4"> Add Event | Admin Panel </h1>
+			<h1 class="text-center text-primary mt-5 mb-4"> Add Event</h1>
 		</section>
 
 
@@ -117,7 +141,7 @@
 		  <button type="submit" class="btn btn-primary mt-2">Submit</button>
 		</form>
 
-		<footer class="border-top pt-3 pb-3 mt-1 text-center bg-dark text-white mb-0">
+		<footer class="navbar fixed-bottom navbar-dark bg-dark text-center text-white">
 		   <p class="mb-0"> Copyright &copy; 2019 | Designed & Developed by CSI DDU Student Branch </p>
 	   </footer>
 
