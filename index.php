@@ -79,19 +79,13 @@
 		</div>
 	</div>
 
-	<!-- vivek start working from here -->
-
-
-
-
-
-	  <div class="container">
+	 <div class="container">
 		<div class="row mb-5 justify-content-center">
 			<div class="col-md-10 text-center">
 				<h2 class="section-title mb-4" data-aos="fade-up" data-aos-delay="">What We do?</h2>
-				<p class="lead mr-2 ml-2" data-aos="fade-up" data-aos-delay="100">We Share Knowledge, Experience and Expertees.</p>
+				<p class="lead mr-2 ml-2" data-aos="fade-up" data-aos-delay="100">We Share Knowledge, Experience and Expertise.</p>
 			</div>
-		</div>
+	</div>
 
 
 		<div class="row mb-5">
@@ -118,7 +112,7 @@
   </div>
 
 
-	  <section class="site-section bg-light" id="blog-section">
+	  <section class="site-section" id="blog-section">
 		<div class="container">
 		  <div class="row mb-5">
 			<div class="col-12 text-center" data-aos="fade">
@@ -129,12 +123,10 @@
 		  <div class="row">
 
 			<?php
-
   			include("db_connect.php");
   			$sql = "SELECT * from Event_master ORDER BY date DESC LIMIT 3";
   			$event_list = $pdo->query($sql)->fetchAll();
   			// now $event variable has list of events
-
   			foreach($event_list as $event){
   			?>
 
@@ -158,77 +150,9 @@
 		</div>
 	  </section>
 
-
-
-	<section class="site-section" id="gallery-section" data-aos="fade">
-
-
-	  <div class="container">
-
-		<div class="row mb-3">
-		  <div class="col-12 text-center">
-			<h2 class="section-title mb-3">Gallery</h2>
-		  </div>
-		</div>
-
-
-
-		<div id="posts" class="row no-gutter">
-		  <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-			<a href="images/img_1.jpg" class="item-wrap fancybox">
-			  <span class="icon-search2"></span>
-			  <img class="img-fluid" src="images/img_1.jpg">
-			</a>
-		  </div>
-		  <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-			<a href="images/img_2.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-			  <span class="icon-search2"></span>
-			  <img class="img-fluid" src="images/img_2.jpg">
-			</a>
-		  </div>
-
-		  <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-			<a href="images/img_3.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-			  <span class="icon-search2"></span>
-			  <img class="img-fluid" src="images/img_3.jpg">
-			</a>
-		  </div>
-
-		  <div class="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-
-			<a href="images/img_4.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-			  <span class="icon-search2"></span>
-			  <img class="img-fluid" src="images/img_4.jpg">
-			</a>
-
-		  </div>
-
-		  <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-			<a href="images/img_5.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-			  <span class="icon-search2"></span>
-			  <img class="img-fluid" src="images/img_5.jpg">
-			</a>
-		  </div>
-
-		  <div class="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-			<a href="images/img_2.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-			  <span class="icon-search2"></span>
-			  <img class="img-fluid" src="images/img_2.jpg">
-			</a>
-		  </div>
-
-
-		</div>
-	  </div>
-
-	</section>
-
-
-
-
 	<section class="bg-light" id="faq-section">
-	  <div class="container pt-5">
-		<div class="row mt-2">
+	  <div class="container">
+		<div class="row pt-5">
 		  <div class="col-12 text-center" data-aos="fade">
 			<h2 class="section-title">Frequently Asked Questions</h2>
 		  </div>
