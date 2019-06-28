@@ -1,3 +1,5 @@
+<?php include('auth.php'); ?>
+
 <?php
 
 header('Location:view_event.php');

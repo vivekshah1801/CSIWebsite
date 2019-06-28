@@ -1,3 +1,5 @@
+<?php include('auth.php'); ?>
+
 <?php
 
 	//if authorized user directly accesses this poge
