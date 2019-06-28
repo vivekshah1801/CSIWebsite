@@ -33,7 +33,7 @@
 
 		<?php include("admin_navbar.php"); ?>
 		<section class="container site-section">
-			<h1 class="text-center text-primary mt-5 mb-4"> Add Event</h1>
+			<h1 class="text-center text-primary mt-5 mb-4"> Add Blog </h1>
 		</section>
 
 
@@ -44,78 +44,59 @@
 					if($_GET['msg']=="success")
 					{
 						echo '<div class="alert alert-success text-center">
-	  					<strong>Success!</strong> Event added successfully.
+	  					<strong>Success!</strong> Blog added successfully.
 						</div>';
 					}
 					else if($_GET['msg']=="error")
 					{
 						echo '<div class="alert alert-danger text-center">
-  						<strong>Oops!</strong> An error occured while adding event to database. Contact admin.
+  						<strong>Oops!</strong> An error occured while adding blog to database. Contact admin.
 						</div>';
 					}
-					else if($_GET['msg']=="event_empty")
+					else if($_GET['msg']=="blog_empty")
 					{
 						echo '<div class="alert alert-warning text-center">
-  						<strong>Hello,</strong> Please fill the event form first.
+  						<strong>Hello,</strong> Please fill the blog form first.
 						</div>';
 					}
 					else if($_GET['msg']=="error_photo")
 					{
 						echo '<div class="alert alert-danger text-center">
-  						<strong>Oops!</strong> Error uploading photo for the event. Contact admin or try uploading again.
+  						<strong>Oops!</strong> Error uploading photo for the blog. Contact admin or try uploading again.
 						</div>';
 					}
 				}
 			?>
 		</div>
 
-		<form class="container site-section mt-4 mb-5" method="post" action="addevent_db.php" enctype="multipart/form-data">
+		<form class="container site-section mt-4 mb-5" method="post" action="addblog_db.php" enctype="multipart/form-data">
 
 		  <div class="form-group">
-		    <label for="event_name">Event Name</label>
-		    <input type="text" class="form-control" id="event_name" placeholder="Event Name" name="name" required>
-		    <small id="event_name_help" class="form-text text-muted">Do NOT include workshop/seminar/competition in event name.</small>
+		    <label for="blog_title">Blog Title</label>
+		    <input type="text" class="form-control" id="blog_title" placeholder="Blog Title" name="title" required>
+		    <small id="blog_title_help" class="form-text text-muted">Provide a short and intresting title within 8 words.</small>
 		  </div>
 
 		  <div class="form-group">
-		    <label for="event_type">Event Type</label>
-		    <select class="form-control" id="event_type" name="type" required>
-		      <option>Seminar</option>
-		      <option>Workshop</option>
-		      <option>Competition</option>
-		      <option>Knowledge Sharing Session</option>
-			  <option>Felicific Event</option>
-		      <option>Non-tech Event</option>
-		      <option>Other</option>
-		    </select>
-		  </div>
-
-		  <div class="form-group date">
-			<label for="event_date">Event Date</label>
-			<input type="date" class="form-control" id="event_date" name="date" required>
-			<small id="event_date_help" class="form-text text-muted">In case of events spanning more than one day provide starting date or most cruicial date. Mention other details in event's description.</small>
-		  </div>
-
-		  <div class="form-group">
-    		<label for="event_description">Event Description</label>
-    		<textarea class="form-control" id="event_description" rows="4" name="description" required></textarea>
-			<small id="event_description_help" class="form-text text-muted">Provide 300 words short brief about the event.</small>
+    		<label for="blog_content">Blog Content</label>
+    		<textarea class="form-control" id="blog_content" rows="17" name="content" required></textarea>
+			<small id="blog_content_help" class="form-text text-muted">Tip: You can use basic bold, italic, underline Tags for proper fomatting. Do NOT use any other markup.</small>
   		  </div>
 
-		  <label for="event_photo">Event Photo Upload</label>
-		  <div class="form-group custom-file">
-			<input type="file" class="custom-file-input" id="photo_link" name="photo_link" required>
-			<label class="custom-file-label" id="event_photo_help" for="event_photo">Choose file</label>
-			<small id="event_photo_help" class="form-text text-muted">Provide a high-resolution JPEG/JPG/PNG image only.</small>
+		  <label for="blog_photo">Blog Photo Upload</label>
+		  <div class="form-group custom-file mb-5">
+			   <input type="file" class="custom-file-input" id="photo_link" name="photo_link" required>
+			   <label class="custom-file-label" id="blog_photo_help" for="blog_photo">Choose file</label>
+			   <small id="blog_photo_help1" class="form-text text-muted">Provide a high-resolution JPEG/JPG/PNG image only.</small>
 		  </div>
 
-		  <div class="form-group mt-5">
-		    <label for="event_blog_link">Event Blog Link</label>
-		    <input type="text" class="form-control" id="event_blog_link" placeholder="Event Blog Link" name="blog_link">
-		    <small id="event_blog_link_help" class="form-text text-muted">Provide a valid resolved URL for the blog corrsponding to this event. Leave blank otherwise.</small>
+		  <div class="form-group">
+		    <label for="blog_author">Blog Author</label>
+		    <input type="text" class="form-control" id="blog_author" placeholder="Blog Author" name="author">
+		    <small id="blog_author_help" class="form-text text-muted">Leave blank to use default 'CSI DDU'.</small>
 		  </div>
 
-		  <button type="submit" class="btn btn-primary mt-2">Submit</button>
+		  <button type="submit" class="btn btn-primary mb-5">Submit</button>
 		</form>
 
 		<footer class="navbar fixed-bottom navbar-dark bg-dark text-center text-white">
@@ -142,7 +123,7 @@
 			//following code shows name of the file appear on select
 			$("#photo_link").on("change", function() {
 			  var fileName = $(this).val().split("\\").pop();
-			  $(this).siblings("#event_photo_help").addClass("selected").text(fileName);
+			  $(this).siblings("#blog_photo_help").addClass("selected").text(fileName);
 			});
 		</script>
 </body>

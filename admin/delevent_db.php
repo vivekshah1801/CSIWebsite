@@ -22,7 +22,7 @@
 		die();
 	}
 
-	header("Location:add_event.php?msg=error");
+	header("Location:view_event.php?msg=error");
 
 	$pdo = null;
 
