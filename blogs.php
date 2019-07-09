@@ -45,61 +45,56 @@
 
   <div class="site-wrap">
 
-    <?php include("header.php"); ?>
+	  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  		<a class="navbar-brand text-primary" href="blogs.php">CSI Blog</a>
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  			<span class="navbar-toggler-icon"></span>
+  		</button>
+  		<div class="collapse navbar-collapse" id="navbarNav">
+  			<ul class="navbar-nav">
+  				<li class="nav-item">
+  					<a class="nav-link" href="index.php">Home</a>
+  				</li>
+  				<li class="nav-item">
+  					<a class="nav-link" href="events.php">Events</a>
+  				</li>
+  				<li class="nav-item">
+  					<a class="nav-link" href="team.php">Our Team</a>
+  				</li>
+  				<li class="nav-item">
+  					<a class="nav-link" href="contact.php">Contact</a>
+  				</li>
+  			</ul>
+  		</div>
+  	</nav>
 
-    <div class="site-blocks-cover overlay" style="background-image: url(images/img_1.jpg);" data-aos="fade">
-      <div class="container">
-        <div class="row align-items-center justify-content-center">
 
+	<h1 class="text-primary text-center mt-3">Blogs</h1>
 
-          <div class="col-md-12 mt-lg-5 text-center">
-            <h1 class="mb-4">What We Do?</h1>
-            <p class="desc mb-4">We organize various events round the calendar. <br>This not only keeps the club active but students also gets to intract with industry experts.<br>Here is the chronicle of seminars, events and competition we organized.</p>
+	<section id="blog_list" class="pr-5 pl-5" style="padding-top:50px;">
 
-			<a href="#" target="_blank" class="btn  btn-primary mr-2 mb-2 mt-3">Have a Look</a>
-
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-
-
-	<section class="timeline">
-	  <div class="container">
-
-		<?php
-
+	<?php
 		include("db_connect.php");
-		$sql = "SELECT * from Event_master ORDER BY date DESC LIMIT 10";
-		$event_list = $pdo->query($sql)->fetchAll();
+		$sql = "SELECT * from Blog_master ORDER BY date_published DESC LIMIT 10";
+		$blog_list = $pdo->query($sql)->fetchAll();
 		// now $event variable has list of events
 
-		foreach($event_list as $event){
-		?>
+		foreach($blog_list as $blog){
+	?>
+		<div class="card mb-3">
+		 <div class="card-body">
+		    <h3 class="card-title display-1 text-bold text-primary"><?php echo $blog['title']; ?></h3>
+		    <p class="card-text text-truncate"><?php echo $blog['content']; ?></p>
+		    <p class="card-text"><small><?php echo date("jS M, Y", strtotime($blog['date_published'])); ?><span class="mx-2">&bullet;</span><?php echo $blog['author']; ?></small></p>
+		  </div>
+		</div>
 
-	    <div class="timeline-item">
-
-	      <div class="timeline-img"></div>
-
-	      <div class="timeline-content timeline-card">
-	        <div class="timeline-img-header" style="background-image: url(<?php echo $event['photo_link']; ?>);">
-	          <h2><?php echo $event['name']; ?></h2>
-	        </div>
-	        <div class="date"><?php echo date("jS M, Y", strtotime($event['date'])); ?></div>
-	        <p><?php echo $event['description']; ?></p>
-	        <a class="bnt-more" href="<?php echo $event['blog_link']; ?>">More</a>
-	      </div>
-
-	    </div>
-
-		<?php
+	<?php
 		}
 		$pdo = null;
-		?>
-	  </div>
+	?>
 	</section>
+
 
 	<?php include("footer.php"); ?>
 

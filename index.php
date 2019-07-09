@@ -92,20 +92,17 @@
 		  <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="">
 			<img src="images/event_icon.png" alt="Events" class="img-fluid w-25 mb-4">
 			<h3 class="card-title text-primary">Events</h3>
-			<p>replace this text.</p>
-		  </div>
+	    </div>
 
 		  <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="100">
 			<img src="images/workshop_icon.png" alt="Workshops" class="img-fluid w-25 mb-4">
 			<h3 class="card-title text-primary">Workshops</h3>
-			<p>replace this text.</p>
-		  </div>
+	    </div>
 
 		  <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="200">
 			<img src="images/seminar_icon.png" alt="Seminars" class="img-fluid w-25 mb-4">
 			<h3 class="card-title text-primary">Seminars</h3>
-			<p>replace this text.</p>
-		  </div>
+	    </div>
 
 		</div>
 	  </div>
@@ -161,21 +158,21 @@
 		  <div class="col-lg-6">
 
 			<div class="mb-5" data-aos="fade-up" data-aos-delay="100">
-			<h3 class="text-black h4 mb-4">Can I accept both Paypal and Stripe?</h3>
-			<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+			<h3 class="text-black h4 mb-4">What is CSI all about?</h3>
+			<p>Computer Society of India is the first and largest body of computer professionals in India. It was started by few computer professional and now has grown to be the national body representing computer professionals. In almost every university it runs its student chapter like we have CSI DDU Student Chapter.</p>
 			</div>
 
 			<div class="mb-5" data-aos="fade-up" data-aos-delay="100">
-			  <h3 class="text-black h4 mb-4">What available is refund period?</h3>
-			  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+			  <h3 class="text-black h4 mb-4">How can I get CSI membership?</h3>
+			  <p>To get CSI membership you need to fill a registration form and have to pay the membership fee and can get its membership card which can be yearly, two-yearly or for four years also.</p>
 			</div>
 
 		  </div>
 		  <div class="col-lg-6">
 
 			<div class="mb-5" data-aos="fade-up" data-aos-delay="100">
-			  <h3 class="text-black h4 mb-4">Where are you from?</h3>
-			  <p>Voluptatum nobis obcaecati perferendis dolor totam unde dolores quod maxime corporis officia et. Distinctio assumenda minima maiores.</p>
+			  <h3 class="text-black h4 mb-4">Why should I take CSI membership?</h3>
+			  <p>It becomes very helpful for any individual in future as it helps you to get various scholarships and also be very impactful in your resume. Since you are part of one of the prestigious and acknowledged body it also help you to grow your technical as well as non technical skills. One of the most important advantage is that you get certain benefits and concession in fess while participating in any event organised by CSI.</p>
 			</div>
 
 

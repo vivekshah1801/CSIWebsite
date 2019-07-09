@@ -5,7 +5,7 @@
 		<div class="row">
 		  <div class="col-md-5">
 			<h2 class="footer-heading mb-4">About Us</h2>
-			<p>Hello, please write a decent about CSI text here.</p>
+			<p>CSI is a largest group of computer proffesionals in india. CSI DDU Student branch is a chapter of CSI working in the fields of sharing knowledge and experiences among the students of DDU.</p>
 		  </div>
 		  <div class="col-md-3 ml-auto">
 			<h2 class="footer-heading mb-4">Quick Links</h2>

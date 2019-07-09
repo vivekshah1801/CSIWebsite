@@ -27,7 +27,7 @@
 			<li><a href="index.php" class="nav-link">Home</a></li>
 			<li><a href="events.php" class="nav-link">Events</a></li>
 			<li><a href="team.php" class="nav-link">Our Team</a></li>
-			<li><a href="blog.php" class="nav-link">Blog</a></li>
+			<li><a href="blogs.php" class="nav-link">Blog</a></li>
 			<li><a href="contact.php" class="nav-link">Contact</a></li>
 
 			<li class="social"><a href="#contact-section" class="nav-link"><a href="https://www.facebook.com/Computer-Society-of-India-DDU-Student-Branch-328507823907859/"<span class="icon-facebook"></span></a></li>
