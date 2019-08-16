@@ -95,7 +95,7 @@
 						<td><?php echo $event['blog_link']; ?></td>
 						<td>
 							<?php echo
-							'<form method="post" action="updateevent_db.php">
+							'<form method="post" action="update_event.php">
 								<input type="hidden" name="event_id" value="'.$event['id'].'">
 								<button class="btn btn-primary" type="submit"> Update </button>
 							</form>';

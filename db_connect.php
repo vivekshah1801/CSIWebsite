@@ -3,7 +3,7 @@
 //use $pdo for accessing database.
 
 $host = '127.0.0.1';
-$db   = 'CSIWebsite';
+$db   = 'csiwebsite';
 $user = 'root';
 $pass = '';
 $charset = 'utf8mb4';

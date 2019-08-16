@@ -45,7 +45,7 @@
     <?php include("header.php"); ?>
 
 
-    <div class="site-blocks-cover overlay" style="background-image: url(images/img_1.jpg);" data-aos="fade">
+    <div class="site-blocks-cover overlay" style="background-image: url(images/header_background.jpg);" data-aos="fade">
       <div class="container">
         <div class="row align-items-center justify-content-center">
 
@@ -54,7 +54,7 @@
             <h1 class="mb-4">Meet Our Amazing Team!</h1>
             <p class="desc mb-4">"Alone we can do so little, together we can do so much." <br>-Helen Keller</p>
 
-			<a href="#" target="_blank" class="btn  btn-primary mr-2 mb-2 mt-3">Contact Us</a>
+			<a href="contact.php" target="_blank" class="btn  btn-primary mr-2 mb-2 mt-3">Contact Us</a>
 
           </div>
 
@@ -72,8 +72,8 @@
         	<div class="card border-0 shadow">
           		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
           		<div class="card-body text-center">
-            		<h5 class="card-title mb-0">Team Member</h5>
-            		<div class="card-text text-black-50">Web Developer<p><a href="#"><span class="fa fa-facebook-square"></span></a>
+            		<h5 class="card-title mb-0" style="font-size:18px;">Prof. Tushar V. Ratanpara</h5>
+            		<div class="card-text text-black-50">Counsellor & Mentor<p><a href="#"><span class="fa fa-facebook-square"></span></a>
 					<a href="#"><span class="fa fa-instagram"></span></a>
 					<a href="#"><span class="fa fa-linkedin-square"></span></a>
 					<a href="#"><span class="fa fa-github-square"></span></a></p></div>
@@ -85,8 +85,8 @@
         	<div class="card border-0 shadow">
           		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
           		<div class="card-body text-center">
-            		<h5 class="card-title mb-0">Team Member</h5>
-            		<div class="card-text text-black-50">Web Developer<p><a href="#"><span class="fa fa-facebook-square"></span></a>
+            		<h5 class="card-title mb-0">Amrita Bhogayata</h5>
+            		<div class="card-text text-black-50">President<p><a href="#"><span class="fa fa-facebook-square"></span></a>
 					<a href="#"><span class="fa fa-instagram"></span></a>
 					<a href="#"><span class="fa fa-linkedin-square"></span></a>
 					<a href="#"><span class="fa fa-github-square"></span></a></p></div>
@@ -98,8 +98,8 @@
         	<div class="card border-0 shadow">
           		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
           		<div class="card-body text-center">
-            		<h5 class="card-title mb-0">Team Member</h5>
-            		<div class="card-text text-black-50">Web Developer<p><a href="#"><span class="fa fa-facebook-square"></span></a>
+            		<h5 class="card-title mb-0">Siddharth Yadav</h5>
+            		<div class="card-text text-black-50">Vice President<p><a href="#"><span class="fa fa-facebook-square"></span></a>
 					<a href="#"><span class="fa fa-instagram"></span></a>
 					<a href="#"><span class="fa fa-linkedin-square"></span></a>
 					<a href="#"><span class="fa fa-github-square"></span></a></p></div>
@@ -111,8 +111,8 @@
         	<div class="card border-0 shadow">
           		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
           		<div class="card-body text-center">
-            		<h5 class="card-title mb-0">Team Member</h5>
-            		<div class="card-text text-black-50">Web Developer<p><a href="#"><span class="fa fa-facebook-square"></span></a>
+            		<h5 class="card-title mb-0">Vishal Kapadiya</h5>
+            		<div class="card-text text-black-50">Secratary<p><a href="#"><span class="fa fa-facebook-square"></span></a>
 					<a href="#"><span class="fa fa-instagram"></span></a>
 					<a href="#"><span class="fa fa-linkedin-square"></span></a>
 					<a href="#"><span class="fa fa-github-square"></span></a></p></div>
@@ -124,8 +124,8 @@
         	<div class="card border-0 shadow">
           		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
           		<div class="card-body text-center">
-            		<h5 class="card-title mb-0">Team Member</h5>
-            		<div class="card-text text-black-50">Web Developer<p><a href="#"><span class="fa fa-facebook-square"></span></a>
+            		<h5 class="card-title mb-0">Maitri Joshi</h5>
+            		<div class="card-text text-black-50">Tresurer<p><a href="#"><span class="fa fa-facebook-square"></span></a>
 					<a href="#"><span class="fa fa-instagram"></span></a>
 					<a href="#"><span class="fa fa-linkedin-square"></span></a>
 					<a href="#"><span class="fa fa-github-square"></span></a></p></div>
@@ -137,8 +137,8 @@
         	<div class="card border-0 shadow">
           		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
           		<div class="card-body text-center">
-            		<h5 class="card-title mb-0">Team Member</h5>
-            		<div class="card-text text-black-50">Web Developer<p><a href="#"><span class="fa fa-facebook-square"></span></a>
+            		<h5 class="card-title mb-0">Anmol Saxena</h5>
+            		<div class="card-text text-black-50">Technical Head<p><a href="#"><span class="fa fa-facebook-square"></span></a>
 					<a href="#"><span class="fa fa-instagram"></span></a>
 					<a href="#"><span class="fa fa-linkedin-square"></span></a>
 					<a href="#"><span class="fa fa-github-square"></span></a></p></div>
@@ -150,8 +150,8 @@
         	<div class="card border-0 shadow">
           		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
           		<div class="card-body text-center">
-            		<h5 class="card-title mb-0">Team Member</h5>
-            		<div class="card-text text-black-50">Web Developer<p><a href="#"><span class="fa fa-facebook-square"></span></a>
+            		<h5 class="card-title mb-0">Arshit Vaghasiya</h5>
+            		<div class="card-text text-black-50">Technical Associate<p><a href="#"><span class="fa fa-facebook-square"></span></a>
 					<a href="#"><span class="fa fa-instagram"></span></a>
 					<a href="#"><span class="fa fa-linkedin-square"></span></a>
 					<a href="#"><span class="fa fa-github-square"></span></a></p></div>
@@ -163,8 +163,8 @@
         	<div class="card border-0 shadow">
           		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
           		<div class="card-body text-center">
-            		<h5 class="card-title mb-0">Team Member</h5>
-            		<div class="card-text text-black-50">Web Developer<p><a href="#"><span class="fa fa-facebook-square"></span></a>
+            		<h5 class="card-title mb-0">Tilakraj Desai</h5>
+            		<div class="card-text text-black-50">Technical Associate<p><a href="#"><span class="fa fa-facebook-square"></span></a>
 					<a href="#"><span class="fa fa-instagram"></span></a>
 					<a href="#"><span class="fa fa-linkedin-square"></span></a>
 					<a href="#"><span class="fa fa-github-square"></span></a></p></div>
@@ -176,22 +176,8 @@
         	<div class="card border-0 shadow">
           		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
           		<div class="card-body text-center">
-            		<h5 class="card-title mb-0">Team Member</h5>
-            		<div class="card-text text-black-50">Web Developer<p><a href="#"><span class="fa fa-facebook-square"></span></a>
-					<a href="#"><span class="fa fa-instagram"></span></a>
-					<a href="#"><span class="fa fa-linkedin-square"></span></a>
-					<a href="#"><span class="fa fa-github-square"></span></a></p></div>
-	          	</div>
-	        </div>
-	      </div>
-
-
-		  <div class="col-md-3 mb-4">
-        	<div class="card border-0 shadow">
-          		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
-          		<div class="card-body text-center">
-            		<h5 class="card-title mb-0">Team Member</h5>
-            		<div class="card-text text-black-50">Web Developer<p><a href="#"><span class="fa fa-facebook-square"></span></a>
+            		<h5 class="card-title mb-0">Mohit Mandlewala</h5>
+            		<div class="card-text text-black-50">Designing Head<p><a href="#"><span class="fa fa-facebook-square"></span></a>
 					<a href="#"><span class="fa fa-instagram"></span></a>
 					<a href="#"><span class="fa fa-linkedin-square"></span></a>
 					<a href="#"><span class="fa fa-github-square"></span></a></p></div>
@@ -204,8 +190,22 @@
         	<div class="card border-0 shadow">
           		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
           		<div class="card-body text-center">
-            		<h5 class="card-title mb-0">Team Member</h5>
-            		<div class="card-text text-black-50">Web Developer<p><a href="#"><span class="fa fa-facebook-square"></span></a>
+            		<h5 class="card-title mb-0">Rachit Shah</h5>
+            		<div class="card-text text-black-50">Associate<p><a href="#"><span class="fa fa-facebook-square"></span></a>
+					<a href="#"><span class="fa fa-instagram"></span></a>
+					<a href="#"><span class="fa fa-linkedin-square"></span></a>
+					<a href="#"><span class="fa fa-github-square"></span></a></p></div>
+	          	</div>
+	        </div>
+	      </div>
+
+
+		  <div class="col-md-3 mb-4">
+        	<div class="card border-0 shadow">
+          		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
+          		<div class="card-body text-center">
+            		<h5 class="card-title mb-0">Rahi Shah</h5>
+            		<div class="card-text text-black-50">Associate<p><a href="#"><span class="fa fa-facebook-square"></span></a>
 					<a href="#"><span class="fa fa-instagram"></span></a>
 					<a href="#"><span class="fa fa-linkedin-square"></span></a>
 					<a href="#"><span class="fa fa-github-square"></span></a></p></div>
@@ -217,8 +217,8 @@
         	<div class="card border-0 shadow">
           		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
           		<div class="card-body text-center">
-            		<h5 class="card-title mb-0">Team Member</h5>
-            		<div class="card-text text-black-50">Web Developer<p><a href="#"><span class="fa fa-facebook-square"></span></a>
+            		<h5 class="card-title mb-0">Vivek Shah</h5>
+            		<div class="card-text text-black-50">Commitee Member<p><a href="#"><span class="fa fa-facebook-square"></span></a>
 					<a href="#"><span class="fa fa-instagram"></span></a>
 					<a href="#"><span class="fa fa-linkedin-square"></span></a>
 					<a href="#"><span class="fa fa-github-square"></span></a></p></div>
@@ -230,8 +230,8 @@
         	<div class="card border-0 shadow">
           		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
           		<div class="card-body text-center">
-            		<h5 class="card-title mb-0">Team Member</h5>
-            		<div class="card-text text-black-50">Web Developer<p><a href="#"><span class="fa fa-facebook-square"></span></a>
+            		<h5 class="card-title mb-0">Smit Savani</h5>
+            		<div class="card-text text-black-50">Commitee Member<p><a href="#"><span class="fa fa-facebook-square"></span></a>
 					<a href="#"><span class="fa fa-instagram"></span></a>
 					<a href="#"><span class="fa fa-linkedin-square"></span></a>
 					<a href="#"><span class="fa fa-github-square"></span></a></p></div>
@@ -243,8 +243,8 @@
         	<div class="card border-0 shadow">
           		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
           		<div class="card-body text-center">
-            		<h5 class="card-title mb-0">Team Member</h5>
-            		<div class="card-text text-black-50">Web Developer<p><a href="#"><span class="fa fa-facebook-square"></span></a>
+            		<h5 class="card-title mb-0">Mrugnayani Lankapati</h5>
+            		<div class="card-text text-black-50">Commitee Member<p><a href="#"><span class="fa fa-facebook-square"></span></a>
 					<a href="#"><span class="fa fa-instagram"></span></a>
 					<a href="#"><span class="fa fa-linkedin-square"></span></a>
 					<a href="#"><span class="fa fa-github-square"></span></a></p></div>
@@ -256,8 +256,21 @@
         	<div class="card border-0 shadow">
           		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
           		<div class="card-body text-center">
-            		<h5 class="card-title mb-0">Team Member</h5>
-            		<div class="card-text text-black-50">Web Developer<p><a href="#"><span class="fa fa-facebook-square"></span></a>
+            		<h5 class="card-title mb-0">Darshan Beladiya</h5>
+            		<div class="card-text text-black-50">Commitee Member<p><a href="#"><span class="fa fa-facebook-square"></span></a>
+					<a href="#"><span class="fa fa-instagram"></span></a>
+					<a href="#"><span class="fa fa-linkedin-square"></span></a>
+					<a href="#"><span class="fa fa-github-square"></span></a></p></div>
+	          	</div>
+	        </div>
+	      </div>
+				
+				<div class="col-md-3 mb-4">
+        	<div class="card border-0 shadow">
+          		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
+          		<div class="card-body text-center">
+            		<h5 class="card-title mb-0">Trupti Langalia</h5>
+            		<div class="card-text text-black-50">Commitee Member<p><a href="#"><span class="fa fa-facebook-square"></span></a>
 					<a href="#"><span class="fa fa-instagram"></span></a>
 					<a href="#"><span class="fa fa-linkedin-square"></span></a>
 					<a href="#"><span class="fa fa-github-square"></span></a></p></div>
@@ -269,8 +282,47 @@
         	<div class="card border-0 shadow">
           		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
           		<div class="card-body text-center">
-            		<h5 class="card-title mb-0">Team Member</h5>
-            		<div class="card-text text-black-50">Web Developer<p><a href="#"><span class="fa fa-facebook-square"></span></a>
+            		<h5 class="card-title mb-0">Kashyap Tamakuwala</h5>
+            		<div class="card-text text-black-50">Commitee Member<p><a href="#"><span class="fa fa-facebook-square"></span></a>
+					<a href="#"><span class="fa fa-instagram"></span></a>
+					<a href="#"><span class="fa fa-linkedin-square"></span></a>
+					<a href="#"><span class="fa fa-github-square"></span></a></p></div>
+	          	</div>
+	        </div>
+	      </div>
+				
+				<div class="col-md-3 mb-4">
+        	<div class="card border-0 shadow">
+          		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
+          		<div class="card-body text-center">
+            		<h5 class="card-title mb-0">Harsh Patel</h5>
+            		<div class="card-text text-black-50">Commitee Member<p><a href="#"><span class="fa fa-facebook-square"></span></a>
+					<a href="#"><span class="fa fa-instagram"></span></a>
+					<a href="#"><span class="fa fa-linkedin-square"></span></a>
+					<a href="#"><span class="fa fa-github-square"></span></a></p></div>
+	          	</div>
+	        </div>
+	      </div>
+
+		  <div class="col-md-3 mb-4">
+        	<div class="card border-0 shadow">
+          		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
+          		<div class="card-body text-center">
+            		<h5 class="card-title mb-0">Dipali Mishra</h5>
+            		<div class="card-text text-black-50">Commitee Member<p><a href="#"><span class="fa fa-facebook-square"></span></a>
+					<a href="#"><span class="fa fa-instagram"></span></a>
+					<a href="#"><span class="fa fa-linkedin-square"></span></a>
+					<a href="#"><span class="fa fa-github-square"></span></a></p></div>
+	          	</div>
+	        </div>
+	      </div>
+
+		  <div class="col-md-3 mb-4">
+        	<div class="card border-0 shadow">
+          		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
+          		<div class="card-body text-center">
+            		<h5 class="card-title mb-0">Dip Sidpara</h5>
+            		<div class="card-text text-black-50">Commitee Member<p><a href="#"><span class="fa fa-facebook-square"></span></a>
 					<a href="#"><span class="fa fa-instagram"></span></a>
 					<a href="#"><span class="fa fa-linkedin-square"></span></a>
 					<a href="#"><span class="fa fa-github-square"></span></a></p></div>

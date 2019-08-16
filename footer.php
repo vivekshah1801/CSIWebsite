@@ -10,25 +10,24 @@
 		  <div class="col-md-3 ml-auto">
 			<h2 class="footer-heading mb-4">Quick Links</h2>
 			<ul class="list-unstyled">
-			  <li><a href="#">Contact Us</a></li>
-			  <li><a href="#">Resourses</a></li>
-			  <li><a href="#">Media Kit</a></li>
-			  <li><a href="#">Registrations</a></li>
+			  <li><a href="events.php" style="text-decoration:none">Events</a></li>
+			  <li><a href="team.php" style="text-decoration:none">Team</a></li>
+			  <li><a href="contact.php" style="text-decoration:none">Contact</a></li>
 			</ul>
 		  </div>
 		  <div class="col-md-3 footer-social">
 			<h2 class="footer-heading mb-4">Follow Us</h2>
 			<ul class="list-unstyled">
-				<li><a href="#">Facebook</a></li>
-				<li><a href="#">Instagram</a></li>
-				<li><a href="#">LinkedIn</a></li>
-				<li><a href="#">Github</a></li>
+				<li><a href="https://www.facebook.com/Computer-Society-of-India-DDU-Student-Branch-328507823907859/" target="_blank">Facebook</a></li>
+				<li><a href="https://Instagram.com/csi_ddu" target="_blank">Instagram</a></li>
+				<li><a href="https://www.linkedin.com/company/computer-society-of-india" target="_blank">LinkedIn</a></li>
 			</ul>
 		  </div>
 		</div>
 	  </div>
 	  <div class="col-md-3">
 		<h2 class="footer-heading mb-4">Contact Us</h2>
+		<p>Darshan : +91 76985 29237</p>
 		<p>Vivek   : +91 88492 36413 </p>
 		<p>Trupti : +91 91064 73664 </p>
 	  </div>

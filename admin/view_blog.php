@@ -96,7 +96,7 @@
 						<td><?php echo $blog['photo_link']; ?></td>
 						<td>
 							<?php echo
-							'<form method="post" action="updateblog_db.php">
+							'<form method="post" action="update_blog.php">
 								<input type="hidden" name="blog_id" value="'.$blog['blog_id'].'">
 								<button class="btn btn-primary" type="submit"> Update </button>
 							</form>';

@@ -31,19 +31,13 @@
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
 
-  <div id="overlayer"></div>
-  <div class="loader">
-    <div class="spinner-border text-primary" role="status">
-      <span class="sr-only">Loading...</span>
-    </div>
-  </div>
-
+  
 
   <div class="site-wrap">
 
     <?php include("header.php"); ?>
 
-    <div class="site-blocks-cover overlay" style="background-image: url(images/img_1.jpg);" data-aos="fade">
+    <div class="site-blocks-cover overlay" style="background-image: url(images/header_background.jpg);" data-aos="fade">
       <div class="container">
         <div class="row align-items-center justify-content-center">
 
@@ -52,7 +46,7 @@
             <h1 class="mb-4">Get In Touch</h1>
             <p class="desc mb-4">Have a question about linear regression? <br>You build a amazing app and want to show it?<br>Or you just want to talk? We love discussing new ideas!</p>
 
-			<a href="#" target="_blank" class="btn  btn-primary mr-2 mb-2 mt-3">Contact Us</a>
+			<a href="#" target="_blank" class="btn  btn-primary mr-2 mb-2 mt-3">Fill the form below</a>
 
           </div>
 
@@ -87,7 +81,7 @@
 		<!-- form starts -->
 		<div class="row justify-content-center">
 	  		<div class="col-md-8 mb-1">
-				<form action="#" class="p-5 bg-white">
+				<form action="msg.php" class="p-5 bg-white">
 
 					<h2 class="h4 text-black mb-5">We always love to hear from you!</h2>
 

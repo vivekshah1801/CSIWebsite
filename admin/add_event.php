@@ -47,6 +47,12 @@
 	  					<strong>Success!</strong> Event added successfully.
 						</div>';
 					}
+					else if($_GET['msg']=="updated")
+					{
+						echo '<div class="alert alert-success text-center">
+	  					<strong>Success!</strong> Event updated successfully.
+						</div>';
+					}
 					else if($_GET['msg']=="error")
 					{
 						echo '<div class="alert alert-danger text-center">

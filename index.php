@@ -28,13 +28,7 @@
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-  <div id="overlayer"></div>
-  <div class="loader">
-	<div class="spinner-border text-primary" role="status">
-	  <span class="sr-only">Loading...</span>
-	</div>
-  </div>
-
+  
 
   <div class="site-wrap">
 
@@ -47,8 +41,8 @@
 				<div class="col-md-10 mt-lg-5 text-center">
 
 					<h1>CSI DDU Student Branch</h1>
-					<p class="mb-5 desc"  data-aos="fade-up"> We envisions a dream where everyone is provided a opportunity to expand their horizons of knowledge. We organize workshops, seminars, competitions to empower students with the weapon of 21st century : Knowledge.</p>
-					<a href="#" target="_blank" class="btn  btn-primary mr-2 mb-2">Get In Touch</a>
+					<p class="mb-5 desc"  data-aos="fade-up"> We envisions a dream where everyone is provided a opportunity to expand their horizons of knowledge. </p>
+					<a href="contact.php" target="_blank" class="btn  btn-primary mr-2 mb-2">Get In Touch</a>
 
 				</div>
 			</div>
@@ -132,10 +126,10 @@
 				<a href="<?php echo $event['blog_link']; ?>">
 				  <img src="<?php echo $event['photo_link']; ?>" alt="Recent CSI event photo" class="img-fluid rounded">
 				</a>
-				<h2 class="font-size-regular"><a href="<?php echo $event['blog_link']; ?>"><?php echo $event['name']; ?></a></h2>
+				<h2 class="font-size-regular"><?php echo $event['name']; ?></a></h2>
 				<div class="meta mb-4"><?php echo date("jS M, Y", strtotime($event['date'])); ?><span class="mx-2">&bullet;</span><?php echo $event['type']; ?></div>
-				<p><?php echo $event['description']; ?></p>
-				<p><a href="<?php echo $event['blog_link']; ?>">Continue Reading...</a></p>
+				<p class="text-truncate"><?php echo $event['description']; ?></p>
+				<p><a href="events.php">Continue Reading...</a></p>
 			  </div>
 			</div>
 

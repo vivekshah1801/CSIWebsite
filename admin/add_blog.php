@@ -47,6 +47,12 @@
 	  					<strong>Success!</strong> Blog added successfully.
 						</div>';
 					}
+					else if($_GET['msg']=="bupdated")
+					{
+						echo '<div class="alert alert-success text-center">
+	  					<strong>Success!</strong> Blog Updated successfully.
+						</div>';
+					}
 					else if($_GET['msg']=="error")
 					{
 						echo '<div class="alert alert-danger text-center">
@@ -64,6 +70,10 @@
 						echo '<div class="alert alert-danger text-center">
   						<strong>Oops!</strong> Error uploading photo for the blog. Contact admin or try uploading again.
 						</div>';
+					}
+					else
+					{
+						echo $_GET['msg'];
 					}
 				}
 			?>

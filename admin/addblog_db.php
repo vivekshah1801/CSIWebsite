@@ -1,4 +1,4 @@
-<?php include('auth.php'); ?>
+s<?php include('auth.php'); ?>
 
 <?php
 
@@ -30,12 +30,12 @@
 
 	include('../db_connect.php');
 	$blog_id = $pdo->query("SELECT MAX(blog_id) FROM Blog_master")->fetchColumn();
-	$blog_id = (int)$blog_id + 1;
+	$blog_id = (int)$blog_id + 2;
 
 	echo "Id: ".$blog_id;
 
 	//dont use ../ : as photo_link is going to be invoked by public html sibing folder.
-	$photo_link = "assets/images_blog/".$blog_id.".".$file_ext;
+	$photo_link = "assets/".$blog_id.".".$file_ext;
 
 	//appending ../ for moving to parent sibiling folder
 	move_uploaded_file($file_tmp,"../".$photo_link);
@@ -43,7 +43,7 @@
   	$title = $_POST['title'];
 	$content = $_POST['content'];
 	$author = $_POST['author'];
-	$photo_link = "assets/images_blog/".$blog_id.".".$file_ext;
+	$photo_link = "assets/".$blog_id.".".$file_ext;
 
 
 	$stmt = $pdo->prepare("INSERT INTO blog_master (title,content,author,photo_link) VALUES (?, ?, ?, ?)");

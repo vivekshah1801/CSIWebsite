@@ -17,7 +17,7 @@
 	<div class="row align-items-center">
 
 	  <div class="col-6 col-xl-2">
-		<h1 class="mb-0 site-logo"><a href="index.php" class="h2 mb-0">Logo</a></h1>
+		<h1 class="mb-0 site-logo"><a href="index.php" class="h3 mb-0"><img src="images/csi_logo.png" alt="csi logo" class="img img-responsive" width="20%"/> CSI DDU</a></h1>
 	  </div>
 
 	  <div class="col-12 col-md-10 d-none d-xl-block">
@@ -27,12 +27,12 @@
 			<li><a href="index.php" class="nav-link">Home</a></li>
 			<li><a href="events.php" class="nav-link">Events</a></li>
 			<li><a href="team.php" class="nav-link">Our Team</a></li>
-			<li><a href="blogs.php" class="nav-link">Blog</a></li>
+			<!--<li><a href="blogs.php" class="nav-link">Blog</a></li>-->
 			<li><a href="contact.php" class="nav-link">Contact</a></li>
 
-			<li class="social"><a href="#contact-section" class="nav-link"><a href="https://www.facebook.com/Computer-Society-of-India-DDU-Student-Branch-328507823907859/"<span class="icon-facebook"></span></a></li>
-			<li class="social"><a href="#contact-section" class="nav-link"><span class="icon-twitter"></span></a></li>
-			<li class="social"><a href="#contact-section" class="nav-link"><span class="icon-linkedin"></span></a></li>
+			<li class="social"><a class="nav-link" href="https://www.facebook.com/Computer-Society-of-India-DDU-Student-Branch-328507823907859/"><span class="icon-facebook"></span></a></li>
+			<li class="social"><a class="nav-link" href="https://www.instagram.com/csi_ddu/"><span class="icon-instagram"></span></a></li>
+			<li class="social"><a class="nav-link" href="https://www.linkedin.com/company/computer-society-of-india" ><span class="icon-linkedin"></span></a></li>
 
 			<!-- extra links
 			<li class="has-children">
