@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 18, 2019 at 07:30 PM
+-- Generation Time: Aug 17, 2019 at 02:10 PM
 -- Server version: 10.3.15-MariaDB
 -- PHP Version: 7.1.30
 
@@ -37,13 +37,6 @@ CREATE TABLE `blog_master` (
   `photo_link` varchar(500) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `blog_master`
---
-
-INSERT INTO `blog_master` (`blog_id`, `title`, `date_published`, `content`, `author`, `photo_link`) VALUES
-(4, 'Darshna blog', '2019-07-18', 'loremfjshdfj djfh ghgs hguieui', 'Darshan Beladiya', 'assets/images_blog/1.jpg');
-
 -- --------------------------------------------------------
 
 --
@@ -59,15 +52,6 @@ CREATE TABLE `event_master` (
   `photo_link` varchar(500) DEFAULT NULL,
   `blog_link` varchar(500) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `event_master`
---
-
-INSERT INTO `event_master` (`id`, `name`, `type`, `date`, `description`, `photo_link`, `blog_link`) VALUES
-(12, 'Quizophile', 'Workshop', '0018-12-18', 'this is test', 'assets/images/1.jpg', 'sf'),
-(13, 'Javascirpt workshop', 'Seminar', '0030-12-16', 'dhgg', 'assets/images/13.jpg', 'https://developers.google.com/web/tools/'),
-(15, 'vivek', 'Knowledge Sharing Se', '2019-06-12', 'thi si stest desc', 'assets/images/14.jpg', 'facebook.com');
 
 -- --------------------------------------------------------
 
@@ -88,7 +72,8 @@ CREATE TABLE `user_master` (
 INSERT INTO `user_master` (`username`, `password`, `role`) VALUES
 ('vivek', 'vivek123', 'admin'),
 ('trupti', 'trupti123', 'admin'),
-('smit', 'smit123', 'admin2');
+('smit', 'smit123', 'admin2'),
+('darshan', 'darshan123', 'admin');
 
 --
 -- Indexes for dumped tables
@@ -114,13 +99,13 @@ ALTER TABLE `event_master`
 -- AUTO_INCREMENT for table `blog_master`
 --
 ALTER TABLE `blog_master`
-  MODIFY `blog_id` int(7) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `blog_id` int(7) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `event_master`
 --
 ALTER TABLE `event_master`
-  MODIFY `id` int(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(6) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
